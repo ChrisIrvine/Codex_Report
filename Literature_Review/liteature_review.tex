@@ -1,5 +1,5 @@
 % Project Proposal Document
-\documentclass[proposal]{cmpreport}
+\documentclass[review]{cmpreport}
 \makeatletter
 \input{t1pcr.fd}
 \makeatother
@@ -16,7 +16,7 @@
 	for their generosity and kindness in allowing the use of their Intellectual Property for this project.
 }
 \usepackage{rotating}
-%\nolist
+\linespread{1.5}
 \newcommand{\ueacmp}{UEA School of Computing Sciences}
 \newcommand{\WotC}{Wizards of the Coast}
 \newcommand{\dnd}{D\&D}
@@ -27,9 +27,58 @@
 % BOF Document
 \begin{document}
 	\section{Introduction}
-	In this document we will explore academic journals, papers and books that are relevant to the development of Codex, in addition to the source books for \dnd \. Topics that are covered in this literature review include; Software Engineering Models, Graphical User Interface (GUI) Design and Testing, Human Computer Interaction, Sever-side Technologies and Database Design. Other topics will be explored in addition to those listed. 
+	In this document we will explore academic journals, papers and books that are relevant to the development of Codex, in addition to the source books for \dnd . Topics that are covered in this literature review include; Software Engineering Models, Graphical User Interface (GUI) Design and Testing, Human Computer Interaction, Sever-side Technologies and Database Design. Other topics will be explored in addition to those listed. However, before the technical topics are covered, we should gain a deeper appreciation for the source material that govern the 5th edition of \dnd . 
 	
-	Before the technical topics are covered, we should gain a deeper appreciation for the source material that govern the 5th edition of \dnd \.
+	\section{Dungeons and Dragons 5th Edition}
+	\dnd \ is a game that is random by design, but there are two distinct areas to \dnd \, Exploration and Combat. Codex will largely deal with the Combat rues, however there is scope to support the DMs in the Exploration area as well. There is one overarching concept about \dnd \ that needs to be understood when dealing with the rules of game. The rules are nothing more than a suggestion to the DM about how to run his or her game. Every group with have their own way of dealing with different situations, which could be an entirely new rule or an adjustment to one of the suggested rules. die
+	\dnd \ is governed by the roll of dice. The most common die that is used is the 20-sided die, which dictates if an attack hits, or if you were able to persuade a character in game. It is used in both Combat and Exploration. The other dice (100, 12, 10, 8, 6 and 4 sided) are largely used for damage or the result of a spell. These dice are denoted by a lower-case `d' and the number of side that dice posses, for example the 20-sided dice are denoted as \textbf{d20}.
+	
+	\subsection{Exploration}
+	We shall begin with a brief look into Exploration, this is where the majority of DM preparation time is spent. DMs need to have landscapes, settlements, characters, dialogue, plot points and consequences for Players to interact with whilst they explore the world. The Dungeon Master's Guide \cite{DMGuide} contains a lot of information about the officially published settings, as well as tips and tricks for creating your own adventures. One of the most useful sources in the Dungeon Master's Guide for creating adventures for the Players to explore, is the multitude of random chance tables that allow you to create all the necessary information that forms the core of any adventure you might need for your game. These random chance tables are not limited to adventure story lines, other tables cover the characters the Players may interact with or the treasures players might receive at the end of an adventure. Codex aims to include a planning feature that will integrate these tables to allow the busy DM to instantly create the framework for adventures and characters. 
+	
+	\subsection{Combat}
+	There are a lot more combat rules than exploration rules spread throughout the three \dnd \ core books \cite{DMGuide}, \cite{MonsterManual}, \cite{PlayerHandbook} . These rules are also more heavily suggested towards the DM as quite often the lives of the Player's Characters depends on these rules. Some DMs do choose to alter these rules to suit their particular game, however Codex will follow these rules as written. The Combat rules are the same for both the Player Characters and the enemies they face, and can be broken down into a set of simple calculations. For example, when seeing if an attack with a hammer will hit; the character's \textbf{proficiency} \ plus \textbf{strength modifier} \ will be added to the result of a \textbf{d20 roll}. This can be summarised to be:
+	\clearpage
+	\[
+	d20 + proficiency + strength\;modifier = attack\;roll
+	\]
+	\[
+	17 + 4 + 2 = 23
+	\]
+	The attack roll is 23, this is then compared against the targets \textbf{Armour Class (AC)}. Plate Armour has an AC of 18, so the attack roll of 23 is greater than the AC of the target and will hit \cite{PlayerHandbook}. This rule will not be included in Codex's scope as it is taking away enjoyment from the players and is not helping the DM do their job. Instead it is rules like the \emph{poisoned} rule that will be taken into account, where a suitable icon will be placed over the character who is \emph{poisoned}, to remind the DM that that character has the condition.
+	
+	\subsection{Protecting Enjoyment}
+	Codex is a tool for the DM of a group to use in order that they can enjoy running games of \dnd \ to a higher degree. To do this, a limit has been set on Codex scope. Codex will not replace any dice rolling or the simple arithmetic that fuels the game. Instead Codex will be an interface to track game statistics and quickly review rules and ability effects,  allowing the DM to instil more narrative and creative content into the game. 
+	
+	\section{Software Engineering Models}
+	A \sems are, at its core, a model for time management in relation to a project, particularly the Agile \sems . The majority of \sems \ are focused on controlling development time and code reviews, however some can extend to managing research and design work as well. For Codex we will look at two potential \sems \ to support the research, design and development phases. 
+	 
+	\subsection{Agile for One}
+	Agile for One is an adaptation of the Agile Manifesto to be more suitable for a single developer project, with the outcome of defining a new \sem , called Agile Solo \cite{AgileSolo}. Agile Solo is similar to traditional Scrum in that there are weekly iterations inside a longer over-arching period of time, but rather than a two week sprint encapsulating a daily scrum meeting, there is a monthly deliverable with a weekly iteration. At the end of each week, the Developer meets with the Customer or a Supervisor to discuss what occurred during the week and what the next focus should be. A longer review takes place at the end of each month. Agile Solo also recommends a daily meeting with a fellow developer to ensure that code quality is maintained. 
+	
+	\subsection{Extreme Programming For One}
+	Extreme Programming (XP) is a \sem \ which emphasises the importance of constant feedback and maintaining simplicity in a system, allowing a project to thrive in an ever-changing environment. XP For One preserves the traditional stages of XP, but the \textbf{Pair Programming} recommendation is impossible to replicate in a solo developer project \cite{SoloXP}. So instead XP For One suggests; that the developer has a friend or colleague constantly check that the developer has run the tests on the current section of work, that a log book is kept detailing the tests and development results and that the developer meet with a supervisor or client regularly to maintain the constant feedback. 
+	
+	\subsection{Development of Codex}
+	The development of Codex, which includes the non-programming activities (such as reports and presentations) will be achieved by utilising Agile for One Software Engineering Model for all aspects of the report. Trello, a website dedicated to project management, will aid in the management of tasks \cite{Trello}. Should Agile for One be unsuitable for the development of Codex then Extreme Programming For One will be used. 
+	
+	\section{Web-App Architecture}
+	Web-App Architecture can be simplified down to three layers [INSERT IMAGE OF ARCHITECTURE FROM \cite{SecurityWebApps} HERE, LABELLING IT FIGURE 2]. As we can see from Figure 2 the first layer (Presentation Tier) is held locally on the Client's machine. This is what is known as `Client-Side'. Here HTML, CSS and JavaScript is used to translate data into a format the Client will understand. The second layer (Logic Tier), here languages such as PHP or Node.JS perform functions on raw data to generate web content. Traditionally the Logic Tier is hosted on a Server that Clients connect to, this is the `Server-Side' The third layer (Data Tier) communicates with the Logic Tier through SQL Queries \cite{SecurityWebApps}.
+	
+	\subsection{Server- vs Client-Side Technologies}
+	From Figure 2, we can create a rule for the division of Codex' functions between Server- and Client-Side technologies. All data and logical functions should be hosted on the Server-Side and the display functions should be hosted on Client-Side. However, this does create a problem. This rule means that Codex will have no Offline Functionality. 
+	
+	\section{Offline Capabilities}
+
+	\section{Databases}
+	\subsection{Database Design}
+
+	\section{Graphical User Interface}
+	\subsection{GUI Design}
+	\subsection{GUI Testing}
+	\subsection{Mobile GUI Design and Testing}
+	
+	
 \bibliography{projectbib}
 \end{document}
 % EOF Document
