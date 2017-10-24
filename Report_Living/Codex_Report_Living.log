@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.3)  24 OCT 2017 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.3)  24 OCT 2017 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1423,14 +1423,7 @@ LaTeX Warning: Float too large for page by 10.89334pt on input line 170.
 
 [8] [9] [10
 
-]
-Overfull \hbox (19.56036pt too wide) detected at line 199
-\OML/ztmcm/m/it/12 Stephanie Attack Roll \OT1/ztmcm/m/n/12 : 15 + 4 + 3 = 21 \O
-ML/ztmcm/m/it/12 vs \OT1/ztmcm/m/n/12 14\OML/ztmcm/m/it/12 ::: attack hits::: S
-tephanie makes a damage roll
- []
-
-[11] [12] (./Codex_Report_Living.bbl) [13
+] [11] [12] (./Codex_Report_Living.bbl) [13
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1467,12 +1460,12 @@ tephanie makes a damage roll
 
 
 (c:/texlive/texmf-local/tex/base/cmpreport/marksheetlitrev.tex
-Underfull \hbox (badness 10000) in paragraph at lines 211--33
+Underfull \hbox (badness 10000) in paragraph at lines 212--33
 
  []
 
 
-Overfull \hbox (3.34485pt too wide) in paragraph at lines 211--33
+Overfull \hbox (3.34485pt too wide) in paragraph at lines 212--33
 []
  []
 
@@ -1480,20 +1473,27 @@ Overfull \hbox (3.34485pt too wide) in paragraph at lines 211--33
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (./Codex_Report_Living.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
-Package rerunfilecheck Info: File `Codex_Report_Living.out' has not changed.
-(rerunfilecheck)             Checksum: 5CE4549333621607365193917A32FEEF;2607.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+
+
+Package rerunfilecheck Warning: File `Codex_Report_Living.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Codex_Report_Living.out':
+(rerunfilecheck)             Before: 5CE4549333621607365193917A32FEEF;2607
+(rerunfilecheck)             After:  DD9A29892C499AF52F55AF7960F046FD;2608.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 34015 strings out of 492990
- 687082 string characters out of 6136334
- 826571 words of memory out of 5000000
- 37029 multiletter control sequences out of 15000+600000
+ 34019 strings out of 492990
+ 687143 string characters out of 6136334
+ 827611 words of memory out of 5000000
+ 37032 multiletter control sequences out of 15000+600000
  611217 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,10n,71p,10417b,1064s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1505,10 +1505,10 @@ tic/uhvb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
 /texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Codex_Report_Living.pdf (14 pages, 133585 bytes).
+Output written on Codex_Report_Living.pdf (14 pages, 133596 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,50 +4,52 @@ The top-level auxiliary file: Codex_Report_Living.aux
 The style file: apalike.bst
 Database file #1: projectbib.bib
 Warning--entry type for "DesignDocExample" isn't style-file defined
---line 69 of file projectbib.bib
+--line 67 of file projectbib.bib
 Warning--entry type for "SoloXP" isn't style-file defined
---line 103 of file projectbib.bib
+--line 99 of file projectbib.bib
 Warning--entry type for "Trello" isn't style-file defined
---line 187 of file projectbib.bib
-You've used 13 entries,
+--line 183 of file projectbib.bib
+Warning--entry type for "Personal" isn't style-file defined
+--line 231 of file projectbib.bib
+You've used 14 entries,
             1935 wiz_defined-function locations,
-            545 strings with 5066 characters,
-and the built_in function-call counts, 3648 in all, are:
-= -- 347
-> -- 109
-< -- 14
-+ -- 35
-- -- 32
-* -- 247
-:= -- 689
-add.period$ -- 36
-call.type$ -- 13
-change.case$ -- 75
-chr.to.int$ -- 12
-cite$ -- 13
-duplicate$ -- 165
-empty$ -- 269
-format.name$ -- 51
-if$ -- 697
+            548 strings with 5101 characters,
+and the built_in function-call counts, 3874 in all, are:
+= -- 369
+> -- 116
+< -- 15
++ -- 37
+- -- 34
+* -- 262
+:= -- 734
+add.period$ -- 37
+call.type$ -- 14
+change.case$ -- 80
+chr.to.int$ -- 13
+cite$ -- 14
+duplicate$ -- 175
+empty$ -- 284
+format.name$ -- 54
+if$ -- 738
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 15
-newline$ -- 65
-num.names$ -- 39
-pop$ -- 83
+newline$ -- 68
+num.names$ -- 42
+pop$ -- 90
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 87
 quote$ -- 0
-skip$ -- 127
+skip$ -- 134
 stack$ -- 0
-substring$ -- 173
+substring$ -- 185
 swap$ -- 10
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
+type$ -- 70
 warning$ -- 0
-while$ -- 27
+while$ -- 29
 width$ -- 0
-write$ -- 156
-(There were 3 warnings)
+write$ -- 164
+(There were 4 warnings)
