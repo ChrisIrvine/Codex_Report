@@ -1,0 +1,117 @@
+% Project Proposal Document
+\documentclass[proposal]{cmpreport}
+\makeatletter
+\input{t1pcr.fd}
+\makeatother
+\setlength{\footnotesep}{3ex}
+\title{Codex: A Website and Progressive Web App in JavaScript/PHP for table-top role-playing games \\ Project Proposal}
+\author{Christopher Alastair Irvine}
+\registration{100036248}
+\supervisor{Dr Katharina Huber}
+\ccode{CMP-6013Y}
+\summary{This document is the formal project proposal for 'Codex'}
+\acknowledgements{
+	I would like to thank Dr Katharina Huber for taking on the supervision of this project, 
+	and guiding me towards greatness. Additionally I would like to thank Wizards of the Coast 
+	for their generosity and kindness in allowing the use of their Intellectual Property for this project.
+}
+\usepackage{rotating}
+%\nolist
+\newcommand{\ueacmp}{UEA School of Computing Sciences}
+\newcommand{\WotC}{Wizards of the Coast}
+\newcommand{\dnd}{D\&D}
+\newcommand{\sem}{Software Engineering Model}
+\newcommand{\sems}{Software Engineering Models}
+% EOF Preamble and Macros
+
+% BOF Document
+\begin{document}
+	% BOF Introduction
+	\section{Introduction}
+	
+	% Introduce Dungeons and Dragons, when it was created and how the DM has remained at the center of the game.
+	Over the years, Dungeons and Dragons (\dnd) have entertained millions of players across the world (\cite{DnDOriginal}). Throughout the various editions of the popular table-top role-playing game, the Dungeon Master (DM) has formed the core of every group. The role of a DM is to provide content for the players (party) to explore additionally acting as a; referee, ally, enemy, narrator, historian, peace-keeper and above all friend (\cite{DnDPeople}, \cite{DungeonMaster}). The average \dnd \ campaign occurs once a week, for four hours, until the campaign is finished. Typically a DM will spend between 5 and 15 hours preparing content per week, but the work of a DM does not end with their preparation. During the session a DM needs to be alert and attentive to all of their players, reacting accordingly to player input. The vast range of skills required for the role and the amount of time needed to carry out the duties of a DM; a barrier is created, preventing many capable players from trying their hand at being a DM, contributing to the shortage of DMs within the community.
+	
+	This project (Codex) aims to make Dungeon Mastering in \dnd \ more accessible and simpler; by reducing the amount of time needed to prepare content, reducing the number of statistics that the DM needs to track and make the general organisation of the group simpler. Codex aims to achieves this through the use of Website that aims to have Progressive Web App (PWA) integration. \dnd \ has been a global community that and a service like Codex will be of great benefit to them. 
+	
+	The problems that Codex will face are as follows; Gathering Data from the \dnd \ player-base, developing and managing a Server-side Database, Offline Capabilities, Temporary Storage, Server-side and Client-side functionality, Software Design, Algorithm Design, Graphical User Interface (GUI) Design and Application of a \sem \ (SEM).
+
+	\section{Risks and Strategies}
+	% Introduce the startegies to cope with the listed problems, one paragraph per problem. Explain and express the virtues of a Design Document.
+	The development of Codex is a Software Engineering project which will include a Design Document\footnote{A Design Document is a technical guide for Developers to use before, during and after Developing a piece of Software. Definitions, Requirements, Use Cases, Class Structure, Database Design, System Frameworks and more are all covered in a Design Document.}(\cite{DesignDocExample}), allowing the solutions to be planned out and tested before development begins.
+	
+	% In Homeric circle order address the problems; starting with Application of Software Engineering Models & Software Design
+	The most extensive problem that influences Codex is the application of SEM to the development of Codex, which will affect the structure of the Software. As the majority of deliverables are non-programming, the chosen SEM will need to provide advantages that can be applied to all tasks. Nyst{\"o}m details the development and testing of a SEM, called Agile Solo (\cite{AgileSolo}). Agile Solo provides many time keeping and review benefits that can be applied to all tasks. If Agile Solo is unsuitable for Codex, a substitute SEM can be used called ExtremeProgramming(XP). XP can be adapted for a Single Developer Project, as outlined by this web-page (\cite{SoloXP}).
+	
+	% Handling GUI Design.
+	As the focus of Codex is to reduce the burden of being a DM, it is vital that the GUI is well designed and easy to use. Galitz outlines the principle of good GUI design in this book (\cite{GUIDesign}), which will serve as a guide for developing and testing the GUI for Codex.
+		
+	% Division of Server-side and Client-side Technologies
+	Maintaining a good balance of Server-side and Client-side technologies ensures the fastest load time possible. Server-side functions will complete on the server prior to the page loading, whereas Client-side functions will complete on the end user's machine after the page is loaded.
+	
+	% Offline Capabilities & Temporary Storage
+	Client-side technologies have the unique advantage of being able to run offline, given the necessary data. Once the original website based application has been developed, Codex will be converted to a PWA by JavaScript libraries - such as NodeJS. The PWA version of Codex will come with offline capabilities that are defined within the Design Document.
+	
+	% Development, design and management of a Server-side Database.
+	The database is hosted on a server and will be built in MySQL. Database communication is handled through a PHP or JavaScript back-end. The design of the database will be mapped out in the Design Document, so that a test database can be built to ensure integrity. 
+	
+	% Algorithm Design
+	Codex contains a multi-dimensional algorithm that will provide a DM with an accurate difficulty score for a fight. The original "Challenge Rating" system, detailed in the Monster Manual (\cite{MonsterManual}) and Volo's Guide to Monsters(\cite{Volos}), will be used so that earlier features can function until the difficulty algorithm can be developed. 
+	
+	% Gathering data from D&D player base
+	DMs are scattered across the globe; but via circulating a survey through the use of Social Media, Codex could ascertain the habits of the DM populace for the first time. Improving the features of Codex during the design phase of the project.
+	
+	\section{Resources}
+	% "Have an appreciation of the resources that are likely to be required to ensure completion"
+	Two resources are critical to the success of Codex. Firstly, the attainment of suitable server space, possibly purchased through companies such as DigitalOcean. As well as the Ethics Approval, provided by the Ethics Board, for the Survey before it can be distributed.
+	
+	With the above resources applied to the solutions to the issues listed in this proposal, Codex has every chance to succeed.
+	
+	\begin{cmpfigure}{Codex Gantt Chart, outlining the major tasks and deliverables\label{pplan}}
+		\begin{sideways}
+			\newganttchartelement{voidbar}{
+				voidbar/.style={draw=black, top color=black!25, bottom color=black!23
+			}}
+			\begin{ganttchart}[y unit chart = 0.86cm, y unit title = 0.86cm, x unit=0.45cm, vgrid, title label font=\scriptsize,
+				canvas/.style={draw=black, dotted}]{1}{34}
+				\gantttitle{Project schedule shown for e-vision week numbers
+					and semester week numbers}{34} \\
+				
+				\gantttitlelist{8,...,41}{1}\\
+				\gantttitlelist{1,...,12}{1} \gantttitle{CB}{4}
+				\gantttitlelist{1,...,9}{1} \gantttitle{EB}{4}
+				\gantttitlelist{10,...,14}{1}\\
+				
+				%The elements, bars and milestones, are identified as elem0, elem1, etc.
+				\ganttbar{Project Proposal}{1}{2} \\        		%elem0  
+				\ganttbar{Literature Review}{2}{5} \\      			%elem1 
+				\ganttmilestone{Literature Review Finished}{5} \\	%elem2
+				\ganttbar{Design Doc. Iteration 1}{4}{8} \\ 		%elem3
+				\ganttbar{Development Iteration 1}{9}{11} \\		%elem4
+				\ganttbar{Progress Report}{11}{12} 					%elem5
+				\ganttmilestone{}{12} \\							%elem6
+				\ganttbar{Development Iteration 2}{11}{12}  		%elem7
+				%week 1 of semester 2 is the 17th week in schedule 
+				\ganttvoidbar{}{13}{16} \\                     		%elem8
+				\ganttbar{Final Report Writing 1}{17}{19} 	        %elem9
+				\ganttmilestone{}{19} \\							%elem10
+				\ganttbar{Design Doc. Iteration 2}{19}{20} \\      	%elem11
+				\ganttbar{Development Iteration 3}{21}{26} \\		%elem12
+				\ganttbar{Testing}{24}{26} \\						%elem13
+				\ganttmilestone{Code Delivery}{26} \\       		%elem14
+				\ganttbar{Final Report Writing 2}{27}{30} \\  		%elem15
+				\ganttbar{Inspection preparation}{31}{34}   		%elem16
+				
+				\ganttlink{elem0}{elem1} \ganttlink{elem1}{elem2} \ganttlink{elem2}{elem3}
+				\ganttlink{elem3}{elem4} \ganttlink{elem4}{elem5} \ganttlink{elem5}{elem6}
+				\ganttlink{elem5}{elem7} \ganttlink{elem8}{elem9} \ganttlink{elem10}{elem11}
+				\ganttlink{elem11}{elem12} \ganttlink{elem12}{elem13} 
+				\ganttlink{elem13}{elem14} \ganttlink{elem14}{elem15}
+				\ganttlink{elem15}{elem16}
+			\end{ganttchart}
+		\end{sideways}
+	\end{cmpfigure}
+\clearpage
+\bibliography{projectbib}
+\end{document}
+% EOF Document
