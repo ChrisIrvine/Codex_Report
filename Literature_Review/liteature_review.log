@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.3)  24 OCT 2017 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.3)  19 OCT 2017 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Codex_Report_Living.tex
-(./Codex_Report_Living.tex
+**./liteature_review.tex
+(./liteature_review.tex
 LaTeX2e <2017-04-15>
 Babel <3.13> and hyphenation patterns for 84 language(s) loaded.
 (c:/texlive/texmf-local/tex/base/cmpreport/cmpreport.cls
@@ -1210,27 +1210,25 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip89
 \rot@float@box=\box69
 \rot@mess@toks=\toks36
-)
-(./Codex_Report_Living.aux)
-\openout1 = `Codex_Report_Living.aux'.
+) (./liteature_review.aux)
+\openout1 = `liteature_review.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 29.
-
-(c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 28.
+ (c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -1297,9 +1295,16 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring OFF on input line 29.
 
+Package scrpage2 Warning: seems you are using a very small headheight.
+(scrpage2)                If you get overfull \vbox warnings at almost every
+(scrpage2)                page, you should increase headheight e.g. writing
+(scrpage2)                 \setlength{\headheight}{1.1\baselineskip}
+(scrpage2)                into the preamble of your document.
+(scrpage2)                A better solution would be to use typearea package.
+
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring OFF on input line 28.
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1308,13 +1313,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count339
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
-(./Codex_Report_Living.out) (./Codex_Report_Living.out)
+(./liteature_review.out) (./liteature_review.out)
 \@outlinefile=\write4
-\openout4 = `Codex_Report_Living.out'.
+\openout4 = `liteature_review.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
@@ -1322,7 +1327,7 @@ Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 29.
+LaTeX Info: Redefining \selectfont on input line 28.
 
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -1337,99 +1342,104 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 29.
- [1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
+
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
+
+
+[1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 \c__siunitx_mathsf_int=\count340
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 29
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 28
 .
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 29
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 28
 .
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 29
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 28
 .
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 29
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 28
 .
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 29.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 \c__siunitx_mathtt_int=\count341
-LaTeX Font Info:    Try loading font information for T1+phv on input line 31.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 29.
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 31.
+(Font)              scaled to size 10.79993pt on input line 29.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 31.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 31.
+(Font)              scaled to size 10.79993pt on input line 29.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 31.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 31.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 39.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
- [2] [3] [4]
-LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 83.
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 12.9599pt on input line 83.
+(Font)              scaled to size 15.55188pt on input line 29.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 87.
- [5
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 36.
 
-] [6]
-LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 108.
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 10.79993pt on input line 108.
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
 
-[7]
 
-LaTeX Warning: Float too large for page by 10.89334pt on input line 170.
+[2]
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
 
-[8] [9] [10
 
-] [11] [12] (./Codex_Report_Living.bbl) [13
+[3]
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
+
+
+[4
 
 ]
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
+
+
+[5] (./liteature_review.bbl
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
+
+
+[7])
+Overfull \vbox (3.62498pt too high) has occurred while \output is active []
+
+
+[8]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1462,50 +1472,66 @@ LaTeX Warning: Float too large for page by 10.89334pt on input line 170.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(c:/texlive/texmf-local/tex/base/cmpreport/marksheetlitrev.tex
-Underfull \hbox (badness 10000) in paragraph at lines 212--33
+ (c:/texlive/texmf-local/tex/base/cmpreport/marksheetlitrev.tex
+Underfull \hbox (badness 10000) in paragraph at lines 83--33
 
  []
 
 
-Overfull \hbox (3.34485pt too wide) in paragraph at lines 212--33
+Overfull \hbox (3.34485pt too wide) in paragraph at lines 83--33
 []
  []
 
-) [14
+) [9
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
- (./Codex_Report_Living.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
-Package rerunfilecheck Info: File `Codex_Report_Living.out' has not changed.
-(rerunfilecheck)             Checksum: 0623A37D112C25FDBFB5CA3A1772A343;2620.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+ (./liteature_review.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+
+
+Package rerunfilecheck Warning: File `liteature_review.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `liteature_review.out':
+(rerunfilecheck)             Before: F812CB36D3284B226013D58D96B28D91;1203
+(rerunfilecheck)             After:  71D69848668194814643D15D11DDEB19;1181.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 34032 strings out of 492990
- 687288 string characters out of 6136334
- 827144 words of memory out of 5000000
- 37043 multiletter control sequences out of 15000+600000
- 616291 words of font info for 116 fonts, out of 8000000 for 9000
+ 33307 strings out of 492990
+ 671814 string characters out of 6136334
+ 789757 words of memory out of 5000000
+ 36360 multiletter control sequences out of 15000+600000
+ 572119 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,10n,71p,10417b,1064s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/helve
-tic/uhvb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
-/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on Codex_Report_Living.pdf (14 pages, 133944 bytes).
+ 80i,8n,71p,10414b,826s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.6.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts
+/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on liteature_review.pdf (9 pages, 91628 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
