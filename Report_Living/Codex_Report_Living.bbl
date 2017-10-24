@@ -69,4 +69,9 @@ Perkins, C. (2014).
 \newblock {\em Monster Manual}.
 \newblock Wizards of the Coast.
 
+\bibitem[Schwaber, 1997]{Scrum}
+Schwaber, K. (1997).
+\newblock {\em SCRUM Development Process}, pages 117--134.
+\newblock Springer London, London.
+
 \end{thebibliography}
