@@ -4,22 +4,46 @@
 Atlassian (2017).
 \newblock Trello.
 
-\bibitem[Bernal-Rusiel et~al., 2017]{JavaScriptModules}
-Bernal-Rusiel, J.~L., Rannou, N., Gollub, R.~L., Pieper, S., Murphy, S.,
-  Robertson, R., Grant, P.~E., and Pienaar, R. (2017).
-\newblock Reusable client-side javascript modules for immersive web-based
-  real-time collaborative neuroimage visualization.
-\newblock {\em Neuroinform}.
-
 \bibitem[De~Groef, 2016]{SecurityWebApps}
 De~Groef, W. (2016).
 \newblock {\em Client- and Server-Side Security Technologies for JavaScript Web
   Applications}.
 \newblock Phd thesis, Faculty of Engineering Science.
 
+\bibitem[Ewalt, 2014]{DnDPeople}
+Ewalt, D.~M. (2014).
+\newblock {\em Of dice and men: The story of Dungeons \& Dragons and the people
+  who play it}.
+\newblock Simon and Schuster.
+
 \bibitem[ExtremeProgrammingChallenge, 2006]{SoloXP}
 ExtremeProgrammingChallenge (2006).
 \newblock Extreme programming for one.
+
+\bibitem[Galitz, 2007]{GUIDesign}
+Galitz, W.~O. (2007).
+\newblock {\em The essential guide to user interface design: an introduction to
+  GUI design principles and techniques}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Gygax and Arneson, 1974]{DnDOriginal}
+Gygax, G. and Arneson, D. (1974).
+\newblock {\em Dungeons and dragons}, volume~19.
+\newblock Tactical Studies Rules Lake Geneva, WI.
+
+\bibitem[Holmes, 1980]{DungeonMaster}
+Holmes, J.~E. (1980).
+\newblock Confessions of a dungeon master.
+\newblock {\em Psychology Today}, 14(6):84--94.
+
+\bibitem[McElrath, 2007]{DesignDocExample}
+McElrath, R. (2007).
+\newblock Xml legal document utility software design document.
+
+\bibitem[Mearls, 2016]{Volos}
+Mearls, M. (2016).
+\newblock {\em Volo`s Guide to Monsters}.
+\newblock Wizards of the Coast.
 
 \bibitem[Mearls and Crawford, 2014a]{DMGuide}
 Mearls, M. and Crawford, J. (2014a).
