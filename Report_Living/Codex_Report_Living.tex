@@ -4,7 +4,7 @@
 \input{t1pcr.fd}
 \makeatother
 \setlength{\footnotesep}{3ex}
-\title{\Codex: A Website and Progressive Web App in JavaScript/PHP for table-top role-playing games \\ Living Report}
+\title{\Codex: A Website and Progressive Web App in Node.js \& React for table-top role-playing games \\ Living Report}
 \author{Christopher Alastair Irvine}
 \registration{100036248}
 \supervisor{Dr Katharina Huber}
@@ -30,15 +30,15 @@
 	% BOF Introduction
 	\section{Introduction}
 	% Introduce Dungeons and Dragons, when it was created and how the DM has remained at the center of the game.	
-	Over the years, \emph{Dungeons and Dragons} (\dnd) have entertained millions of players across the world (\cite{DnDOriginal}). Throughout the various editions of this popular table-top role-playing game, the \emph{Dungeon Master} (DM) has formed the core of every group. The role of a DM is to provide content for the players (party) to explore additionally acting as a; referee, ally, enemy, narrator, historian, peace-keeper and above all friend (\cite{DnDPeople}, \cite{DungeonMaster}). 
+	Over the years, \emph{Dungeons and Dragons} (\dnd) have entertained millions of players across the world (\cite{DnDOriginal}). Throughout the various editions of this popular table-top role-playing game, the \emph{Dungeon Master} (DM) has formed the core of every group. The role of a DM is to provide content for the players (party) to explore in addition to acting as a; referee, ally, enemy, narrator, historian, peace-keeper and above all friend (\cite{DnDPeople}, \cite{DungeonMaster}). 
 	
-	The average \dnd \ campaign occurs once a week, for four hours, until the campaign is finished. Typically a DM will spend between 5 and 15 hours preparing content per week, but the work of a DM does not end with their preparation. During the session a DM needs to be alert and attentive to all of their players, reacting accordingly to player input. The vast range of skills required for the role and the amount of time needed to carry out the duties of a DM create a  barrier; preventing many capable players from trying their hand at being a DM, contributing to the shortage of DMs within the community.
+	The average \dnd \ campaign occurs once a week, for four hours, until the campaign is finished. Typically, a DM will spend between 5 and 15 hours preparing content per week, but the work of a DM does not end with their preparation. During the session a DM needs to be alert and attentive to all their players, reacting accordingly to player input. The vast range of skills required for the role and the amount of time needed to carry out the duties of a DM create a  barrier; preventing many capable players from trying their hand at being a DM, contributing to the shortage of DMs within the community.
 			
-	\Codex \ aims to make Dungeon Mastering in \dnd \ more accessible and simpler; by reducing the amount of time needed to prepare content and the number of statistics that the DM needs to track and make the general organisation of the group simpler. \Codex \ aims to achieve this through the use of a website that aims to have Progressive Web App (PWA) integration. \dnd \ has been a global community that and a service such as \Codex \ will be of great benefit to them. 
+	\Codex \ aims to make Dungeon Mastering in \dnd \ more accessible and simpler; by reducing the amount of time needed to prepare content and the number of statistics that the DM needs to track and make the general organisation of the group simpler. \Codex \ aims to achieve using a website that aims to have Progressive Web App (PWA) integration. \dnd \ has been a global community that and a service such as \Codex \ will be of great benefit to them. 
 	
 	\subsection{A note on Design Documents}
 	%Explain and express the virtues of a Design Document.
-	The development of \Codex \ is a Software Engineering project which will include a Design Document\footnote{A Design Document is a technical guide for Developers to use before, during and after Developing a piece of Software.}(\cite{DesignDocExample}), allowing the solutions to be planned out and tested before development begins.
+	The development of \Codex \ is a Software Engineering project which will include a Design Document\footnote{A Design Document is a technical guide for Developers to use before, during and after Developing a piece of Software.}(\cite{DesignDocExample}), allowing the solutions to be planned and tested before development begins.
 	
 	\subsection{Challenges and Strategies}
 	We anticipate that \Codex \ will face a several challenges over the course of its development, strategies have been outlined below to deal with each of the foreseeable challenges.	
@@ -57,7 +57,7 @@
 	
 	\subsubsection{Offline Capabilities and Caching}
 	% Offline Capabilities & Temporary Storage
-	Client-side technologies have the unique advantage of being able to run Offline, given the necessary data. Once the original website based application has been developed, \Codex \ will be converted to a PWA by JavaScript libraries - such as NodeJS. The PWA version of \Codex \ will come with Offline capabilities that are defined within the Design Document.
+	Client-side technologies have the unique advantage of being able to run Offline, given the necessary data. Once the original website based application has been developed, \Codex \ will be converted to a PWA by JavaScript libraries - such as Node.js. The PWA version of \Codex \ will come with Offline capabilities that are defined within the Design Document.
 	
 	\subsubsection{Database Design, Development and Management}
 	% Development, design and management of a Server-side Database.
@@ -69,22 +69,22 @@
 	
 	\subsubsection{Gathering Data from the \dnd \ Player Base}
 	% Gathering data from D&D player base
-	DMs are scattered across the globe; but via circulating a survey through the use of Social Media, \Codex \ could ascertain the habits of the DM populace for the first time. Improving the features of \Codex \ during the design phase of the project.
+	DMs are scattered across the globe; but via circulating a survey using Social Media, \Codex \ could ascertain the habits of the DM populace for the first time. Improving the features of \Codex \ during the design phase of the project.
 	
 	\subsection{Resources}
 	% "Have an appreciation of the resources that are likely to be required to ensure completion"
-	We anticipate that two resources are critical to the success of \Codex. Firstly, the attainment of suitable server space, possibly purchased through companies such as DigitalOcean. Additionally the Ethics Approval, provided by the Ethics Board, for the Survey before it can be distributed. 
+	We anticipate that two resources are critical to the success of \Codex. Firstly, the attainment of suitable server space, possibly purchased through companies such as DigitalOcean. Additionally, the Ethics Approval, provided by the Ethics Board, for the Survey before it can be distributed. 
 	
 	\clearpage
 	
 	\section{Literature Review}
-	In this document we will explore academic journals, papers and books that are relevant to the development of \Codex, in addition we will gain a deeper appreciation for the source material that govern the 5th Edition of \dnd \ (see Section \ref{DnDRules&Lit}). Topics that are covered in this literature review include; Software Engineering Models (see Section \ref{SEMLit}), Web-App Architecture (see Section \ref{Web-Arch}), Offline Capabilities (see Section \ref{Offline}), Database Design (see Section \ref{Database}), Graphical User Interface (GUI) Design and Testing (see Section \ref{GUIs}). Other topics will be explored in addition to those listed.
+	In this section, we will explore academic journals, papers and books that are relevant to the development of \Codex, in addition we will gain a deeper appreciation for the source material that govern the 5th Edition of \dnd \ (see Section \ref{DnDRules&Lit}). Topics that are covered in this literature review include; Software Engineering Models (see Section \ref{SEMLit}), Web-App Architecture (see Section \ref{Web-Arch}), Offline Capabilities (see Section \ref{JavaScript}), Database Design (see Section \ref{Database}), Graphical User Interface (GUI) Design and Testing (see Section \ref{GUIs}).
 	
 	\subsection{\Codex \ and Dungeons and Dragons} \label{DnDRules&Lit}
-	\Codex \ is a tool for the DM of a group to use in order that they can enjoy running games of \dnd \ to a higher degree. To do this, a limit has been set on\Codex \ scope. \Codex \ will not replace any dice rolling or the simple arithmetic that fuels the game. Instead \Codex \ will be an interface to track game statistics and quickly review rules and ability effects,  allowing the DM to instil more narrative and creative content into the game.
+	\Codex \ is a tool for the DM of a group to use in order that they can enjoy running games of \dnd \ to a higher degree. To do this, a limit has been set on \Codex \ scope. \Codex \ will not replace any dice rolling or the simple arithmetic that fuels the game. Instead \Codex \ will be an interface to track game statistics and quickly review rules and ability effects,  allowing the DM to instil more narrative and creative content into the game.
 	
 	\subsubsection{Understanding Dungeons and Dragons}
-	\dnd \ is a game that is random by design, but there are two distinct areas to \dnd \, \emph{Exploration} and \emph{Combat}. \Codex \ will largely deal with the Combat rules, however there is scope to support the DMs in the Exploration area as well. There is one overarching concept about \dnd \ that needs to be understood when dealing with the rules of game. The rules are nothing more than a suggestion to the DM about how to run his or her game. Every group will have their own way of dealing with different situations, which could be an entirely new rule or an adjustment to one of the suggested rules. \dnd \ is governed by the roll of dice. The most common die that is used is the 20-sided die, which dictates if an attack hits, or if you were able to persuade a character in game. It is used in both Combat and Exploration. The other dice (100, 12, 10, 8, 6 and 4 sided) are largely used for damage or the result of a spell. These dice are denoted by a lower-case `d' and the number of side that dice posses, for example the 20-sided dice are denoted as \textbf{d20}.
+	\dnd \ is a game that is random by design, but there are two distinct areas to \dnd \, \emph{Exploration} and \emph{Combat}. \Codex \ will largely deal with the Combat rules, however there is scope to support the DMs in the Exploration area as well. There is one overarching concept about \dnd \ that needs to be understood when dealing with the rules of game. The rules are nothing more than a suggestion to the DM about how to run his or her game. Every group will have their own way of dealing with different situations, which could be an entirely new rule or an adjustment to one of the suggested rules. \dnd \ is governed by the roll of dice. The most common die that is used is the 20-sided die, which dictates if an attack hits, or if you were able to persuade a character in game. It is used in both Combat and Exploration. The other dice (100, 12, 10, 8, 6 and 4 sided) are largely used for damage or the result of a spell. These dice are denoted by a lower-case `d' and the number of side that dice possess, for example the 20-sided dice are denoted as \textbf{d20}.
 	
 	For a worked example of \dnd \ please see Appendix \ref{DnDExample}.
 	
@@ -92,38 +92,71 @@
 	We shall begin with a brief look into Exploration, this is where the majority of DM preparation time is spent. DMs need to have landscapes, settlements, characters, dialogue, plot points and consequences for Players to interact with whilst they explore the world. The Dungeon Master's Guide \citep{DMGuide} contains a lot of information about the officially published settings, as well as tips and tricks for creating your own adventures. One of the most useful sources in the Dungeon Master's Guide for creating adventures for the Players to explore, is the multitude of random chance tables that allow you to create all the necessary information that forms the core of any adventure you might need for your game. These random chance tables are not limited to adventure story lines, other tables cover the characters the Players may interact with or the treasures players might receive at the end of an adventure. \Codex \ aims to include a planning feature that will integrate these tables to allow the busy DM to instantly create the framework for adventures and characters. 
 	
 	\subsubsection{Combat}
-	There are a lot more combat rules than exploration rules spread throughout the three \dnd \ core books (\cite{DMGuide}, \cite{MonsterManual} and \cite{PlayerHandbook}) . These rules are also more heavily suggested towards the DM as quite often the lives of the Player's Characters depends on these rules. Some DMs do choose to alter these rules to suit their particular game \citep{Personal}, however \Codex \ will follow these rules as written. The Combat rules are the same for both the Player Characters and the enemies they face, and can be broken down into a set of simple calculations. For example, when seeing if an attack with a hammer will hit; the character's \textbf{proficiency} \ plus \textbf{strength modifier} \ will be added to the result of a \textbf{d20 roll}. This can be summarised to be:
+	There are a lot more combat rules than exploration rules spread throughout the three \dnd \ core books (\cite{DMGuide}, \cite{MonsterManual} and \cite{PlayerHandbook}) . These rules are also more heavily suggested towards the DM as quite often the lives of the Player's Characters depend on these rules. Some DMs do choose to alter these rules to suit their game \citep{Personal}, however \Codex \ will follow these rules as written. The Combat rules are the same for both the Player Characters and the enemies they face, and can be broken down into a set of simple calculations. For example, when seeing if an attack with a hammer will hit; the character's \emph{proficiency} \ plus \emph{strength modifier} \ will be added to the result of a \emph{d20 roll}. This can be summarised to be:
 
-	The attack roll is 23, this is then compared against the targets \textbf{Armour Class (AC)}. Plate Armour has an AC of 18, so the attack roll of 23 is greater than the AC of the target and will hit \citep{PlayerHandbook}. This rule will not be included in \Codex's scope as it is taking away enjoyment from the players and is not helping the DM do their job. Instead it is rules like the \emph{poisoned} rule that will be taken into account, where a suitable icon will be placed over the character who is \emph{poisoned}, to remind the DM that  character has the condition.
+	The attack roll is 23, this is then compared against the targets \emph{Armour Class (AC)}. Plate Armour has an AC of 18, so the attack roll of 23 is greater than the AC of the target and will hit \citep{PlayerHandbook}. This rule will not be included in \Codex's scope as it is taking away enjoyment from the players and is not helping the DM do their job. Instead it is rules like the \emph{poisoned} rule that will be taken into account, where a suitable icon will be placed over the character who is \emph{poisoned}, to remind the DM that  character has the condition.
 	
 	\subsection{Software Engineering Models} \label{SEMLit}
-	A \sem at its core, is a model for time management in relation to a project, particularly the Agile \sems \ - such as Scrum  \citep{Scrum} . The majority of \sems \ are focused on controlling development time and code reviews, however some can extend to managing research and design work as well. For \textsc{Codex} we will look at two potential \sems \ to support the research, design and development phases. 
+	A \sem \ at its core, is a model for time management in relation to a project, particularly the Agile \sems \ \citep{AgileManifesto} - such as Scrum  \citep{Scrum} . The majority of \sems \ are focused on controlling development time and code reviews, however some can extend to managing research and design work as well. For \Codex, we will look at two potential \sems \ to support the research, design and development phases. 
 	 
 	\subsubsection{Agile for One}
-	Agile for One is an adaptation of the Agile Manifesto to be more suitable for a single developer project, with the outcome of defining a new \sem , called Agile Solo \citep{AgileSolo}. Agile Solo is similar to traditional Scrum in that there are weekly iterations inside a longer over-arching period of time, but rather than a two week sprint encapsulating a daily scrum meeting, there is a monthly deliverable with a weekly iteration. At the end of each week, the Developer meets with the Customer or a Supervisor to discuss what occurred during the week and what the next focus should be. A longer review takes place at the end of each month. Agile Solo also recommends a daily meeting with a fellow developer to ensure that code quality is maintained. 
+	Agile for One is an adaptation of the Agile Manifesto to be more suitable for a single developer project, with the outcome of defining a new \sem , called Agile Solo \citep{AgileSolo}. Agile Solo is similar to traditional Scrum in that there are weekly iterations inside a longer over-arching period of time, but rather than a two-week sprint encapsulating a daily scrum meeting, there is a monthly deliverable with a weekly iteration. At the end of each week, the Developer meets with the Customer or a Supervisor to discuss what occurred during the week and what the next focus should be. A longer review takes place at the end of each month. Agile Solo also recommends a daily meeting with a fellow developer to ensure that code quality is maintained. 
 	
-	\subsubsection{Extreme Programming For One}
-	Extreme Programming (XP) is a \sem \ which emphasises the importance of constant feedback and maintaining simplicity in a system, allowing a project to thrive in an ever-changing environment. XP For One preserves the traditional stages of XP, but the \textbf{Pair Programming} recommendation is impossible to replicate in a solo developer project \citep{SoloXP}. So instead XP For One suggests; that the developer has a friend or colleague constantly check that the developer has run the tests on the current section of work, that a log book is kept detailing the tests and development results and that the developer meet with a supervisor or client regularly to maintain the constant feedback. 
+	\subsubsection{Extreme Programming for One}
+	Extreme Programming (XP) is a \sem \ which emphasises the importance of constant feedback and maintaining simplicity in a system, allowing a project to thrive in an ever-changing environment. XP For One preserves the traditional stages of XP, but the \emph{Pair Programming} recommendation is impossible to replicate in a solo developer project \citep{SoloXP}. So instead XP For One suggests; that the developer has a friend or colleague constantly check that the developer has run the tests on the current section of work, that a log book is kept detailing the tests and development results and that the developer meet with a supervisor or client regularly to maintain the constant feedback. 
 	
 	\subsubsection{Development of \Codex}
-	The development of \Codex, which includes the non-programming activities (such as reports and presentations) will be achieved by utilising Agile for One Software Engineering Model for all aspects of the report. Trello, a website dedicated to project management, will aid in the management of tasks \citep{Trello}. Should Agile for One be unsuitable for the development of \Codex \ then Extreme Programming For One will be used. 
+	The development of \Codex, which includes the non-programming activities (such as reports and presentations) will be achieved by utilising Agile for One Software Engineering Model for all aspects of the report. Trello, a website dedicated to project management, will aid in the management of tasks \citep{Trello}. Should Agile for One be unsuitable for the development of \Codex \ then Extreme Programming for One will be used.
+	
+	\clearpage 
 	
 	\subsection{Web-App Architecture} \label{Web-Arch}
-	Web-App Architecture can be simplified down to three layers [INSERT IMAGE OF ARCHITECTURE FROM \citep{SecurityWebApps} HERE, LABELLING IT FIGURE 2]. As we can see from Figure 2 the first layer (Presentation Tier) is held locally on the Client's machine. This is what is known as `Client-Side'. Here HTML, CSS and JavaScript is used to translate data into a format the Client will understand. The second layer (Logic Tier), here languages such as PHP or Node.JS perform functions on raw data to generate web content. Traditionally the Logic Tier is hosted on a Server that Clients connect to, this is the `Server-Side' The third layer (Data Tier) communicates with the Logic Tier through SQL Queries \citep{SecurityWebApps}.
+	Web-App Architecture can be simplified down to three layers.
+	\begin{figure}
+		\centering
+		\fbox{\includegraphics[width=0.5\textwidth]{Basic_Web_App_Architecture.PNG}} 
+		\caption{Overview of a three-tier application and its dependencies \citep{SecurityWebApps}} \label{Web-App-Arch}
+	\end{figure}
+	As we can see from Figure \ref{Web-App-Arch} the first layer (Presentation Tier) is held locally on the Client's machine. This is what is known as `Client-Side'. Here HTML, CSS and JavaScript is used to translate data into a format the Client will understand. The second layer (Logic Tier), here languages such as PHP or Node.js perform functions on raw data to generate web content. Traditionally the Logic Tier is hosted on a Server that Clients connect to, this is the `Server-Side' The third layer (Data Tier) communicates with the Logic Tier through SQL Queries \citep{SecurityWebApps}.
 	
 	\subsubsection{Server- vs Client-Side Technologies}
-	From Figure 2, we can create a rule for the division of \Codex' functions between Server- and Client-Side technologies. All data and logical functions should be hosted on the Server-Side and the display functions should be hosted on Client-Side. However, this does create a problem. This rule means that \Codex \ will have no Offline Functionality. 
+	From Figure 2, we can create a rule for the division of \Codex' functions between Server- and Client-Side technologies. All data and logical functions should be hosted on the Server-Side and the display functions should be hosted on Client-Side. However, this does create a problem. This rule means that \Codex \ will have no Offline Functionality, which \Codex \ aims to have.
 	
-	\subsection{Offline Capabilities} \label{Offline}
+	\subsubsection{Test Driven Development (TDD) and Web-App Architecture}
+	TDD is a common Software Engineering practice which dictates that when developing a function, the test for that function must be developed first so that the function can be developed to pass the test. The advantages of TDD are numerous; code is tidier, documentation is more thorough and the lower number of bugs are the main advantages towards \Codex. TDD is typically used for functional programming only therefore, it is not suited towards Web-Based languages such as HTML and CSS \citep{TDD}. But we can use TDD with PHP and JavaScript. To simplify the development of \Codex \ we will not use PHP as JavaScript can run on both the Server- and Client-Side of the app.
+	
+	\subsection{JavaScript Libraries} \label{JavaScript}
+	JavaScript is a programming language that serves to control a website and provide it with functions that allows the website to perform its purpose. Recently some very powerful JavaScript Libraries have been developed that enable JavaScript to run on both the Server- and Client-Sides \citep{JavaScriptGuide}.  
+	
+	\subsubsection{Node.js}
+	Node.js can run on both and is primarily utilised for its event-driven, non-blocking I/O model that allows Node.js to be used to easily build fast and scalable network applications \citep{NodejsOfficial}. Node.js will be used to communicate between React.JS components and the Server Database. 
+	
+	\subsubsection{React}
+	React is "a JavaScript library for building user interfaces" \citep{ReactJSOfficial}. A developer can build components on a server that is rendered on the client's devices through HTML and CSS. React works well with a library like Node.js since React is one way communication from the server to the client \citep{MasteringReact}.   
 
-	\subsection{Databases} \label{Database}
-	\subsubsection{Database Design}
+	\subsection{Database Design} \label{Database}
+	Traditional Database Design is performed using \emph{Entity Relationship Diagrams} which tables of objects and how they are related to one-another. From there a SQL database can be built and populated on a server, ready for access \citep{DatabaseDesign}. 
+	
+	\subsubsection{Databases for Web-Based Internet Applications}
+	The problem with this way of designing and building a database is speed. When you have a multi-tiered system, such as a Web-App (see Figure \ref{Web-App-Arch}), the access times to the database is too slow for modern users \citep{WebAppDatabase}. The solution to this issue is to have a multi-module database with the minimal amount of overhead as possible. 
 
-	\subsection{Graphical User Interface} \label{GUIs}
+	\subsection{Graphical User Interfaces} \label{GUIs}
+	The GUI is, arguably, one of the most important party of any system where a user interacts directly with any part of the system. A good GUI is easy to understand and simple in its design. Ideally, every GUI should follow Norman's 8 Design Principles \citep{Norman}, but in the most systems compromises must be made. 
+	
 	\subsubsection{GUI Design}
-	\subsubsection{GUI Testing}
-	\subsubsection{Mobile GUI Design and Testing}
+	From a Software Engineering Perspective, GUI Design should come before anything else is designed. Once the system requirements have been set, \emph{low-fi} prototyping should take place for the GUI (this is usually sketched on using pen and paper). Once the \emph{low-fi} has been tested and approved, the prototypes of the GUIs become increasingly \emph{hi-fi} until you have reached an entirely digital prototype. GUI Design follows this methodology because \emph{low-fi} prototypes are cheaper and quicker to produce than \emph{hi-fi} prototypes. Once the GUI has been designed, functions and classes are created to fit the GUI \citep{GUIDesign}. 
 	
+	\subsubsection{GUI Testing}
+	At each stage of GUI prototyping, usability testing needs to occur. This can either be a Heuristic Evaluation, with "expert users" (such as Developers, Trained Heuristic Evaluators or similar system users) or a Usability Study. In the early \emph{low-fi} stages, usually only one of these tests are applied, but as the prototype gets \emph{hi-fi} both tests are employed to provide the greatest level of feedback possible \citep{GUIDesign}.
+	
+	\subsubsection{Mobile GUI Design and Testing}
+	Mobile GUIs have been around for a while, ever since the rise of the smart phone in late 00's. At first Mobile Apps and Websites had to be separate, dedicated entities \citep{MobileUsability}. There have been advances in Web-Technologies since then allowing for the same service to scale down to a smaller screen side. 
+	
+	\clearpage
+	
+	\appendix
+	
+	\section{\Codex \ Gantt Chart}
 	\begin{cmpfigure}{\Codex \ Gantt Chart, outlining the major tasks and deliverables\label{pplan}}
 		\begin{sideways}
 			\newganttchartelement{voidbar}{
@@ -168,8 +201,9 @@
 			\end{ganttchart}
 		\end{sideways}
 	\end{cmpfigure}
+
 	\clearpage
-	\appendix
+	
 	\section{Dungeons and Dragons 5th Edition Worked Example} \label{DnDExample}
 	This is a simplified example of a Dungeon Master preparing and running a session of Dungeons and Dragons. There are a lot of intricate details that are left out on purpose. By the end of this Appendix, the reader should understand the basics of Dungeons and Dragons. 
 	
@@ -206,8 +240,18 @@
 	\subsection{Conclusion to Worked Example}\label{DnDWEConc}
 	That content in Appendix \ref{DnDSeshExample} would roughly be 20-30 minutes of session time, the session would of carried on for another three hours at the very least. Whilst this is a lot of work for Adam, he genuinely enjoys the feeling of providing this living, breathing world for his friends to explore and get themselves into many misadventures.
 	
-	\clearpage
+	\subsection{Photograph of a \dnd \ Session}
+	\begin{figure}
+		\centering
+		\fbox{\includegraphics[width=\textwidth]{DnD_Live.jpg}}
+		\caption{An freeze-frame taken from a Dungeons and Dragons Session \citep{Personal}} \label{DnDLive}
+	\end{figure}
+	In Figure \ref{DnDLive}, we can see a freeze-frame taken from a Dungeon and Dragons game. Going from left to right across the picture; we have an open Player's Handbook \citep{PlayerHandbook} \ with a character sheet next to it and scattering of die. Most players would have a similar collection of items to this in front of them. 
 	
+	In the middle of the table we can see a \emph{Battle Mat}t, usually \emph{Battle Mats} are either left empty or are not on the table because of the large amount of space they take up. On the \emph{Battle Mat} \ we can see that the Dungeon Master has drawn a rough sketch of the battle field, and has placed a collection of tokens down to represent the party and their opponents. 
+	
+	Finally we see on the right hand side of Figure \ref{DnDLive} the \emph{Dungeon Master's Shield}, a piece of laminated cardboard that contains a number of quick-reference tables for a DM to refer back to during a game. Behind the shield we can see a large scattering of die, tokens and pens for the DM. In addition to a pile of source books and notes that keeps the DM on the right track according to his grand plan for the Campaign.
+	\clearpage	
 \bibliography{projectbib}
 \end{document}
 % EOF Document
