@@ -32,11 +32,6 @@ Ewalt, D.~M. (2014).
 ExtremeProgrammingChallenge (2006).
 \newblock Extreme programming for one.
 
-\bibitem[Flanagan, 2006]{JavaScriptGuide}
-Flanagan, D. (2006).
-\newblock {\em JavaScript: the definitive guide}.
-\newblock " O'Reilly Media, Inc.".
-
 \bibitem[Fowler and Highsmith, 2001]{AgileManifesto}
 Fowler, M. and Highsmith, J. (2001).
 \newblock The agile manifesto.
@@ -57,16 +52,6 @@ Gygax, G. and Arneson, D. (1974).
 Holmes, J.~E. (1980).
 \newblock Confessions of a dungeon master.
 \newblock {\em Psychology Today}, 14(6):84--94.
-
-\bibitem[Horton and Vice, 2016]{MasteringReact}
-Horton, A. and Vice, R. (2016).
-\newblock {\em Mastering React: Master the art of building modern web
-  applications using React}.
-\newblock Packt Publishing.
-
-\bibitem[Inc., 2017]{ReactJSOfficial}
-Inc., F. (2017).
-\newblock Reactjs.
 
 \bibitem[Irvine, 2017]{Personal}
 Irvine, C. (2017).
@@ -94,10 +79,6 @@ Mearls, M. and Crawford, J. (2014b).
 Nielsen, J. and Budiu, R. (2013).
 \newblock {\em Mobile usability}.
 \newblock MITP-Verlags GmbH \& Co. KG.
-
-\bibitem[Node.js, 2017]{NodejsOfficial}
-Node.js, F. (2017).
-\newblock Node.js.
 
 \bibitem[Norman, 1983]{Norman}
 Norman, D.~A. (1983).

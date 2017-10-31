@@ -11,49 +11,45 @@ Warning--entry type for "Trello" isn't style-file defined
 --line 183 of file projectbib.bib
 Warning--entry type for "Personal" isn't style-file defined
 --line 231 of file projectbib.bib
-Warning--entry type for "NodejsOfficial" isn't style-file defined
---line 355 of file projectbib.bib
-Warning--entry type for "ReactJSOfficial" isn't style-file defined
---line 369 of file projectbib.bib
-You've used 25 entries,
+You've used 21 entries,
             1935 wiz_defined-function locations,
-            619 strings with 6690 characters,
-and the built_in function-call counts, 7846 in all, are:
-= -- 751
-> -- 278
-< -- 26
-+ -- 93
-- -- 88
-* -- 565
-:= -- 1435
-add.period$ -- 69
-call.type$ -- 25
-change.case$ -- 155
-chr.to.int$ -- 24
-cite$ -- 25
-duplicate$ -- 340
-empty$ -- 562
-format.name$ -- 125
-if$ -- 1520
+            601 strings with 6335 characters,
+and the built_in function-call counts, 6783 in all, are:
+= -- 649
+> -- 244
+< -- 22
++ -- 83
+- -- 78
+* -- 495
+:= -- 1233
+add.period$ -- 59
+call.type$ -- 21
+change.case$ -- 132
+chr.to.int$ -- 20
+cite$ -- 21
+duplicate$ -- 292
+empty$ -- 486
+format.name$ -- 109
+if$ -- 1318
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 121
-num.names$ -- 75
-pop$ -- 178
+missing$ -- 26
+newline$ -- 103
+num.names$ -- 63
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 168
+purify$ -- 143
 quote$ -- 0
-skip$ -- 260
+skip$ -- 222
 stack$ -- 0
-substring$ -- 411
-swap$ -- 33
+substring$ -- 363
+swap$ -- 31
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
+type$ -- 104
 warning$ -- 0
-while$ -- 61
+while$ -- 53
 width$ -- 0
-write$ -- 298
-(There were 6 warnings)
+write$ -- 254
+(There were 4 warnings)
