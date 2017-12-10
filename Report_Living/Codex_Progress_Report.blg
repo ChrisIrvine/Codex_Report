@@ -4,54 +4,52 @@ The top-level auxiliary file: Codex_Progress_Report.aux
 The style file: apalike.bst
 Database file #1: projectbib.bib
 Warning--entry type for "NodejsOfficial" isn't style-file defined
---line 341 of file projectbib.bib
+--line 171 of file projectbib.bib
 Warning--entry type for "ReactJSOfficial" isn't style-file defined
---line 355 of file projectbib.bib
-Warning--entry type for "GMTips" isn't style-file defined
---line 451 of file projectbib.bib
+--line 178 of file projectbib.bib
 Warning--entry type for "marvelapp" isn't style-file defined
---line 507 of file projectbib.bib
+--line 254 of file projectbib.bib
 Warning--entry type for "trello" isn't style-file defined
---line 521 of file projectbib.bib
+--line 261 of file projectbib.bib
 You've used 11 entries,
             1935 wiz_defined-function locations,
-            531 strings with 4721 characters,
-and the built_in function-call counts, 2978 in all, are:
-= -- 293
+            535 strings with 4812 characters,
+and the built_in function-call counts, 3209 in all, are:
+= -- 319
 > -- 89
-< -- 11
+< -- 12
 + -- 29
 - -- 26
-* -- 201
-:= -- 573
-add.period$ -- 28
+* -- 215
+:= -- 595
+add.period$ -- 29
 call.type$ -- 11
-change.case$ -- 66
+change.case$ -- 65
 chr.to.int$ -- 10
 cite$ -- 11
-duplicate$ -- 129
-empty$ -- 207
+duplicate$ -- 143
+empty$ -- 231
 format.name$ -- 41
-if$ -- 557
+if$ -- 619
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 53
+missing$ -- 9
+newline$ -- 54
 num.names$ -- 33
-pop$ -- 59
+pop$ -- 64
 preamble$ -- 1
 purify$ -- 68
 quote$ -- 0
-skip$ -- 104
+skip$ -- 116
 stack$ -- 0
-substring$ -- 153
-swap$ -- 5
-text.length$ -- 0
+substring$ -- 185
+swap$ -- 15
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 58
 warning$ -- 0
-while$ -- 24
+while$ -- 27
 width$ -- 0
-write$ -- 127
-(There were 5 warnings)
+write$ -- 131
+(There were 4 warnings)

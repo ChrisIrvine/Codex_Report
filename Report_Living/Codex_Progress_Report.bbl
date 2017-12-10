@@ -29,10 +29,6 @@ Mearls, M. and Crawford, J. (2014b).
 \newblock {\em Player's Handbook}.
 \newblock Wizards of the Coast.
 
-\bibitem[Mercer, 2016]{GMTips}
-Mercer, M. (2016).
-\newblock Setting up your gamemaster's screen! (gm tips w/ matt mercer).
-
 \bibitem[Node.js, 2017]{NodejsOfficial}
 Node.js, F. (2017).
 \newblock Node.js.
@@ -47,6 +43,11 @@ Nystr{\"o}m, A. (2011).
 Perkins, C. (2014).
 \newblock {\em Monster Manual}.
 \newblock Wizards of the Coast.
+
+\bibitem[Schwaber, 1997]{Scrum}
+Schwaber, K. (1997).
+\newblock {\em SCRUM Development Process}, pages 117--134.
+\newblock Springer London, London.
 
 \bibitem[Software, 2011]{trello}
 Software, F.~C. (2011).

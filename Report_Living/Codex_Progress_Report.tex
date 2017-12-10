@@ -34,9 +34,9 @@
 	% BOF Introduction
 	\section{Introduction} \label{sec:intro}
 	% Introduction to the project:
-	\dnd \ is a popular table-top role-playing game which (for the purposes of \Codex) is based on the following principles. \dnd \ is random, operates using simple mathematical formulas and the game cannot survive without a \emph{Dungeon Master} (DM). For a worked example of \dnd \ please see Appendix \ref{app:example}. In the example we will see how a group of players (known as the \emph{Party}) explore the world through a series of challenges (such as hitting an enemy or picking a lock, that is collectively known as the \emph{Campaign}) of that the DM has created. A typical \dnd \ set up can been seen in Figure \ref{fig:DnDEquipmentExample}
+	\dnd \ is a popular table-top role-playing game which (for the purposes of \Codex) is based on the following principles. \dnd \ is random and the game cannot survive without a \emph{Dungeon Master} (DM). For a worked example of \dnd \ please see Appendix \ref{app:example}. In the example we will see how a group of players (known as the \emph{Party}) explore the world through a series of challenges (such as hitting an enemy or picking a lock, that is collectively known as the \emph{Campaign}) which the DM has created. Concepts introduced in Appendix \ref{app:example} will be referred to throughout this document. A typical \dnd \ set up can been seen in Figure \ref{fig:DnDEquipmentExample}
 	
-	\begin{figure}[h] 
+	\begin{figure}[h]
 		\begin{subfigure}{0.5\textwidth}
 			\includegraphics[width=1\linewidth, height=5cm, angle=180]{DnD_Live.jpg}
 			\label{DnDLive}
@@ -49,53 +49,42 @@
 		\label{fig:DnDEquipmentExample}
 	\end{figure}
 
-	\subsection{The Dungeon Master}
-	As explained above, the DM creates the world in front of the party and controls the narrative of the Campaign. This narrative could come from a purchased supplementary book written by \WotC (the company that make \dnd) or the DM could create the story themselves. Either way the DM needs to know both the world and the story they want to tell inside out. Even if then a DM needs to have excellent improvisational skills for when the Party does something unexpected. The challenge of playing the role of DM is to know what you want to happen next and guide the Party to that event without the Party feeling forced into it. It is that challenge that makes the role of DM hard work and fun at the same time. It is not uncommon for a DM to have a couple of folders full to the brim with notes \citep{GMTips}. Fulfilling the role of the DM is like being a mastermind, pulling strings from the shadows, whilst trying to look after a large litter of over-active puppies. 
+	\subsection{Shortcomings of \dnd} \label{sec:shortcomings}
+	\Codex \ is a system that will address some of the shortcomings within the 5\textsuperscript{th} Edition of \dnd. Whilst they are labelled as shortcomings they are integral to the game and there are not better alternatives. So rather than replacing these shortcomings, \Codex \ will attempt to fix them.
+	
+		\subsubsection{The Dungeon Master} \label{sec:DM}
+		As explained in Appendix \ref{app:example}, the DM creates the world in front of the party and controls the narrative of the Campaign. Without a DM there can be no \dnd \ game. Therefore, the game of \dnd \ cannot survive without a healthy population of DMs.
+		
+		However, there is a great deal of pressure on the DM to create fun and engaging content for every single session of \dnd. The task of preparing content is time-consuming and often the work done by the DM can go unused. This commitment to a create content is off-putting to a lot of players who want to try their hand at running a game. The pressure put on a DM is no greater than during combat, as they have to track the individual statistics for each character in the battle in addition to maintaining the narrative.
 
-	\subsection{\dnd \ is random}
-	Due to the importance placed on the result of die rolls, anything and everything can go wrong. Whilst the overarching story tends to stay the same the small details can change multiple times over the same session. This can make preparing content for the Party a living nightmare for a DM. Many a DM have found themselves having hours of preparation work wasted because of the result of a die roll or a decision made by the Party. But this is no one's fault. The Party do not know what is happening next and the DM can only react to the actions of the Party. It is the chaotic nature of \dnd. 
-	
-	\subsection{Mathematics of \dnd}
-	As previously stated, almost everything that happens during a Campaign is decided by die rolls. However the Party (and the \emph{characters} they encounter) do have a small degree of control over their actions. Each character in \dnd \ has a set of \emph{ability scores} that make them unique, each score having a value of 0 to 20 (unless an item changes that) \citep{PlayerHandbook}. These ability scores are translated into \emph{ability modifiers}, which, for better or worse, affect the outcome of the die roll. If a character is particularly skilled in a task they are said to be \emph{Proficient} in it, further adjusting the outcome of a die roll. With the exception of damage rolls, the d20 die is used to make decisions in \dnd. Albeit with some minor variations, die rolls in \dnd \ 5\textsuperscript{th} Edition follow this formula:
-	\begin{gather*}
-		d20 + ability \ score + proficiency = result \\
-		For \ example: \\
-		15 + 4 + 2 = 21
-	\end{gather*}
-	However, as far as \Codex is concerned, the Party and DM will perform these calculations for themselves as its part of the fun of the game. Attack rolls, damage rolls and ability checks will be held out width \Codex. The mathematics that \Codex will handle is the calculation of Ability Modifiers:
-	\begin{gather*}
-		\frac{(ability \ score - 10)}{2} \ (rounded \ down)
-	\end{gather*}
-	In addition to the tracking of each character's \emph{hit points} during combat. Which is a simple addition or subtraction depending on whether a character took damage or gained healing.	
+		\subsubsection{\dnd \ is random} \label{sec:rand}
+		In Appendix \ref{app:example} we saw the importance of die rolls in \dnd \ and the role of a DM. It is the die rolls that allows every game of \dnd \ to be unique and exciting. However, for the DM it the die rolls can cause of all their preparation work to be frequently wasted.
+		
+		\subsubsection{\dnd \ content is overlooked} \label{sec:overlooked}
+		One of the most common questions a Player might ask a DM during a game is \emph{``Who was that guy back in that town from a couple of sessions ago?''}. Player's who do not take sufficient notes during a Campaign can often find themselves lacking in information when solving issues. Either the DM caves to the Player's request and digs out the information themselves, or the Party are stuck in the Campaign. 
 
-	% What is Codex? 
-	% What is the purpose? 
-	% What problems does Codex solve? 
-	% How will it solve them?
-	\subsection{What is \Codex?} \label{subsec:WIC}
-	Now we have an understanding of \dnd, we can now understand the purpose of \Codex \ and what problems \Codex seeks to address. \Codex \ is a Software Engineering Project that aims to engineer a Web-App built in ReactJS and Node.JS technologies. The functionality of which is to:
-	\begin{itemize}
-		\item Assist the DM with the preparation of \dnd \ content.
-		\item Track the Combat Statistics of each character during Encounter.
-		\item Give the Party access to the rich lore of the world they play in.
-	\end{itemize}
-	\Codex \ is developed using the Agile Solo methodology \citep{AgileSolo}. Agile Solo provides \Codex \ with a structures environment of regular deadlines to ensure that the project stays on track. 
+	\subsection{Fixing the Shortcomings with \Codex} \label{sec:CodexFeatures}
+	The features of \Codex \ are designed to solve the three shortcomings mentioned in Section \ref{sec:shortcomings}, the details of which will be discussed in Section \ref{sec:design}. \Codex \ will support the DM role by providing a platform for easy content creation. When a new \emph{Character} or \emph{Setting} is created within a Campaign, a ``Wikipedia'' style page will be generated. That both the Party and DMs can access. \Codex \ has a \emph{Combat Tracker} that will track combat statistics allowing the DM to focus on maintaining the narrative. 
+		
+		\subsubsection{Achieving \Codex} \label{sec:achieve}
+		These features will be achieved through the use of the Agile Solo methodology \citep{AgileSolo}. Agile Solo is based to the Scrum Software Engineering Methodology \citep{Scrum}, which provides a system to track the development of a project and ensure that the deliverables are met. Scrum is developed for a team of people whereas Agile Solo is developed for single developer projects.
+		
+		The development of Codex will use the ReactJS and Node.JS JavaScript libraries. ReactJS can rapidly built and prototype User Interfaces (UI) across multiple platforms \citep{ReactJSOfficial}. Whilst, Node.JS will handle the passing of data between \Codex \ and the corresponding database \citep{NodejsOfficial}. Both of these technologies follow the basic Web-App Architecture laid out in Figure \ref{Web-App-Arch}.
 	
-	ReactJS was chosen because of the ability to rapidly built and prototype User Interfaces (UI) across multiple platforms \citep{ReactJSOfficial}. Node.JS will handle the communication between \Codex \ and the corresponding database \citep{NodejsOfficial}. Both of these technologies follow the basic Web-App Architecture laid out in Figure \ref{Web-App-Arch}.
-	\begin{figure}
-		\centering
-		\fbox{\includegraphics[width=0.5\textwidth]{Basic_Web_App_Architecture.PNG}} 
-		\caption{Overview of a three-tier application and its dependencies \citep{SecurityWebApps}} \label{Web-App-Arch}
-	\end{figure}
+		\begin{figure}[h]
+			\centering
+			\fbox{\includegraphics[width=0.5\textwidth]{Basic_Web_App_Architecture.PNG}} 
+			\caption{Overview of a three-tier web application and its dependencies \citep{SecurityWebApps}. User Input is passed the Web-App through the Graphical User Interface (GUI) in the \emph{Presentation Tier} to the \emph{Logic Tier}. The \emph{Logic Tier} performs calculation on the data before passing it into the \emph{Data- Tier}. The \emph{Logic Tier} can also request data from the \emph{Data Tier}, to perform calculations, before passing the data back into the GUI to be displayed to the User.} \label{Web-App-Arch}
+		\end{figure}
 	
-	\section{\Codex \ Design}
+	\section{\Codex \ Design} \label{sec:design}
 	% Cherry pick sections from the Design Document, summarising how Codex is designed and why I made those choices.
-	In this section, the Design of \Codex \ that has been developed over the last three months will be critiqued and an overview of the critical elements of the Design will be presented. The development of the \Codex \ Design followed the Agile Solo weekly sprint formula. This was achieved by the single developer working on \Codex \ asking themselves a series of questions and recording their answers at the end of each week. Every two weeks the developer would aim to meet with their supervisor to ensure that \Codex \ was on track and any issues were being addressed. Trello was used to organise and manage the remaining tasks of the Design \citep{trello}.
+	In this section, we will review the progress of the Design elements of \Codex. As we saw in Section \ref{sec:achieve}, \Codex \ following the Agile Solo methodology, which assists with maintaining project progress. Trello is used in conjunction with Agile Solo, see Figure \ref{fig:trello-board}, and requires a weekly review of the status of the project. Bi-weekly meetings with an external supervisor is also advised by Agile Solo.  
 	
 	\begin{figure}[h]
 		\centering
 		\fbox{\includegraphics[width=0.5\textwidth]{trello_board.PNG}} 
-		\caption{The Trello Board used to track the progress of the \Codex \ Design Iterations.} \label{fig:trello-board}
+		\caption{The Trello Board used to track the progress of the \Codex \ Design Iterations. Each item on Trello acts like a virtual post-it note. Each note containing a task that needs to be addressed.} \label{fig:trello-board}
 	\end{figure}
 	
 		\subsection{Iterative Design}
@@ -195,6 +184,20 @@
 	\clearpage
 	\appendix
 	\section{Dungeons and Dragons Example} \label{app:example}
+	
+	\subsection{Mathematics of \dnd}
+	As previously stated, almost everything that happens during a Campaign is decided by die rolls. However the Party (and the \emph{characters} they encounter) do have a small degree of control over their actions. Each character in \dnd \ has a set of \emph{ability scores} that make them unique, each score having a value of 0 to 20 (unless an item changes that) \citep{PlayerHandbook}. These ability scores are translated into \emph{ability modifiers}, which, for better or worse, affect the outcome of the die roll. If a character is particularly skilled in a task they are said to be \emph{Proficient} in it, allowing the player to add their \emph{proficiency} to the die roll. With the exception of damage rolls, the d20 die is used to make decisions in \dnd. Albeit with some minor variations, die rolls in \dnd \ 5\textsuperscript{th} Edition follow the following formula:
+	\begin{gather*}
+	d20 + ability \ modifier + proficiency = result \\
+	For \ example: \\
+	15 + 4 + 2 = 21
+	\end{gather*}
+	However, as far as \Codex \ is concerned, the Party and DM will perform these calculations for themselves as its part of the fun of the game. Attack rolls, damage rolls and ability checks will be held out width \Codex. The mathematics that \Codex will handle is the calculation of Ability Modifiers:
+	\begin{gather*}
+	\frac{(ability \ score - 10)}{2} \ (rounded \ down)
+	\end{gather*}
+	In addition to the tracking of each character's \emph{hit points} during combat. Which is a simple addition or subtraction depending on whether a character took damage or gained healing.	
+	
 	\section{Gantt Chart - Original}
 	\begin{cmpfigure}{\Codex \ Gantt Chart, outlining the major tasks and deliverables\label{gc:original}}
 		\begin{sideways}
