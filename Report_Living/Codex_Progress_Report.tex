@@ -20,6 +20,7 @@
 \usepackage{lscape}
 \usepackage{hhline}
 \usepackage{caption}
+\usepackage{makecell}
 \newcommand{\ueacmp}{UEA School of Computing Sciences}
 \newcommand{\WotC}{Wizards of the Coast}
 \newcommand{\dnd}{D\&D}
@@ -69,12 +70,12 @@
 		\subsubsection{Achieving \Codex} \label{sec:achieve}
 		These features will be achieved through the use of the Agile Solo methodology \citep{AgileSolo}. Agile Solo is based to the Scrum Software Engineering Methodology \citep{Scrum}, which provides a system to track the development of a project and ensure that the deliverables are met. Scrum is developed for a team of people whereas Agile Solo is developed for single developer projects.
 		
-		The development of Codex will use the ReactJS and Node.JS JavaScript libraries. ReactJS can rapidly built and prototype User Interfaces (UI) across multiple platforms \citep{ReactJSOfficial}. Whilst, Node.JS will handle the passing of data between \Codex \ and the corresponding database \citep{NodejsOfficial}. Both of these technologies follow the basic Web-App Architecture laid out in Figure \ref{Web-App-Arch}.
+		The development of Codex will use the ReactJS and Node.JS JavaScript libraries. ReactJS can rapidly built and prototype User Interfaces (UI) across multiple platforms \citep{ReactJSOfficial}. Whilst, Node.JS will handle the passing of data between \Codex \ and the corresponding database \citep{NodejsOfficial}. Both of these technologies follow the basic Web-App Architecture laid out in Figure \ref{fig:web-app-arch}.
 	
 		\begin{figure}[h]
 			\centering
 			\fbox{\includegraphics[width=0.5\textwidth]{Basic_Web_App_Architecture.PNG}} 
-			\caption{Overview of a three-tier web application and its dependencies \citep{SecurityWebApps}. User Input is passed the Web-App through the Graphical User Interface (GUI) in the \emph{Presentation Tier} to the \emph{Logic Tier}. The \emph{Logic Tier} performs calculation on the data before passing it into the \emph{Data- Tier}. The \emph{Logic Tier} can also request data from the \emph{Data Tier}, to perform calculations, before passing the data back into the GUI to be displayed to the User.} \label{Web-App-Arch}
+			\caption{Overview of a three-tier web application and its dependencies \citep{SecurityWebApps}. User Input is passed the Web-App through the Graphical User Interface (GUI) in the \emph{Presentation Tier} to the \emph{Logic Tier}. The \emph{Logic Tier} performs calculation on the data before passing it into the \emph{Data- Tier}. The \emph{Logic Tier} can also request data from the \emph{Data Tier}, to perform calculations, before passing the data back into the GUI to be displayed to the User.} \label{fig:web-app-arch}
 		\end{figure}
 	
 	\section{\Codex \ Design} \label{sec:design}
@@ -87,45 +88,43 @@
 		\caption{The Trello Board used to track the progress of the \Codex \ Design Iterations. Each item on Trello acts like a virtual post-it note. Each note containing a task that needs to be addressed.} \label{fig:trello-board}
 	\end{figure}
 	
-		\subsection{Iterative Design}
-		\Codex \ has iterated through two design phases over the three months of development. The first phase focused on low fidelity (low-fi) prototyping of the User Interfaces and was designed with the use of PHP and ReactJS as its principle languages. However, to keep \Codex \ as simple as possible, PHP was replaced by Node.JS in the second iteration. This change was made in order to eliminate a set of testing to accommodate the use of a second language. Now \Codex \ development can be tested at every stage with a single set of testing classes. In addition to the change of language, the second iteration of \Codex \ Design focused on medium fidelity (mid-fi) prototyping of the GUI through the use of the Marvel App Website \citep{marvelapp}.
+		\subsection{Iterative Design} \label{sec:iterative}
+		Agile Solo, see Sections \ref{sec:achieve} and \ref{sec:design}, supports an iterative form of development. The ReactJS JavaScript library complements iterative design due to the ability to rapidly prototype interfaces. However, before any development is performed, \Codex \ has passed through two phases of design. The first iteration focusing on low-fi prototyping (pen and paper) of the system, see Section . Think-Aloud Evaluations were then performed using the low-fi prototypes, with the feedback received incorporated into the second Development iteration, which focused on mid-fi prototyping (using services such as the Marvel App \citep{marvelapp}).
 	
-		\subsection{The Use of ReactJS and Node.JS}
-		As discussed in section \ref{subsec:WIC}, \Codex \ aims to follow the Web-App Architecture. The \emph{presentation} and \emph{logic} tiers will be built using ReactJS with the communication to and from the \emph{data} tier will be written in Node.JS (with the database itself written in SQL). In addition to providing a clear separation of languages and functionality the three-tier Web-App Architecture also follows the Model-View-Controller (MVC) architectural pattern \citep{ModelViewController}. However, the MVC architecture is complicated by the use of ReactJS, which blurs the line between the \emph{Model} (logic) and \emph{View} (presentation) tiers. This is a problem that will be addressed in Section \ref{sec:Issues}.
+		\subsection{The Use of ReactJS and Node.JS} \label{sec:languages}
+		As discussed in section \ref{sec:achieve} and, \Codex \ aims to follow the Web-App Architecture displayed in Figure \ref{fig:web-app-arch}. The \emph{presentation} and \emph{logic} tiers will be built using ReactJS with the communication to and from the \emph{data} tier will be written in Node.JS (with the database itself written in SQL). In addition to providing a clear separation of languages and functionality the three-tier Web-App Architecture also follows the Model-View-Controller (MVC) architectural pattern \citep{ModelViewController}. However, the MVC architecture is complicated by the use of ReactJS, which blurs the line between the \emph{Model} (logic) and \emph{View} (presentation) tiers. This is a problem that will be addressed in Section \ref{sec:Issues}.
 		
-		\subsection{\Codex \ System Requirements}
-		The requirements for \Codex \ were generated by identifying the features that would solve the problems with \dnd \ that were discussed in Section \ref{sec:intro}. Once the features were generated, a \emph{MoSCoW Analysis} was performed on the list. The MoSCoW Analysis asks the developer which features \emph{must exist} in order for the system to be functional, then what \emph{should} be in the system in order to make it viable in the market. Once those two lists have been defined what \emph{could} the system posses that would be a nice addition to the other features. Finally MoSCoW asks what \emph{will not} be in the system at any point.
-		\begin{landscape}
-			\begin{table}
-				\centering
-				\caption{MoSCoW analysis for \Codex, showing the differing importance of wanted features to the system as a whole.}
-				\label{tab:MoSCoW}
-				\begin{tabular}{|l|l|l|l|}
-					\hline
-					\textbf{Must have} 					& \textbf{Should have}              & \textbf{Could have} & \textbf{Wont have}             \\ \hhline{|=|=|=|=|}
-					Track Combat      					& Multiple Campaigns per DM Account	& Game Scheduling     & Full descriptions of D\&D      \\ \hline
-					Accounts          					& Settings							& Items               & Pre-made Settings \& Campaigns \\ \hline
-					Encounter Planning 					& Characters                        &                     & Inter-account Direct Messaging \\ \hline
-					Random Encounters  					& WorldWiki                        	&                     &                                \\ \hline
-					Populated Database 					& Run, Save \& Delete Games 		&                     &                                \\ \hline
-					Session Planning					&         							&                     &                                \\ \hline
-				\end{tabular}
-			\end{table}
-		\end{landscape}
+		\subsection{\Codex \ System Requirements} \label{sec:sys-req}
+		The requirements for \Codex \ were generated by identifying the features that would solve the problems with \dnd \ that were discussed in Section \ref{sec:intro}. Once the features were generated, a \emph{MoSCoW Analysis} was performed on the list, see Table \ref{tab:MoSCoW} for the \Codex \ MoSCoW analysis.
+		
+		\begin{table}
+			\centering
+			\begin{tabular}{|c|c|c|c|}
+				\hline
+				\textbf{Must have} 					& \textbf{Should have}              	& \textbf{Could have} & \textbf{Won't have}             	  \\ \hhline{|=|=|=|=|}
+				Track Combat      					&\makecell{Multiple Campaigns \\ per DM Account}	& \makecell{Game \\ Scheduling}     & \makecell{Full descriptions of \\ D\&D} \\ \hline
+				Accounts          					& Settings								& Items               & \makecell{Pre-made Settings \\ \& Campaigns}\\ \hline
+				Encounter Planning 					& Characters                        	&                     & \makecell{Inter-account Direct \\ Messaging} \\ \hline
+				Random Encounters  					& WorldWiki                        		&                     &                                	  \\ \hline
+				Populated Database 					& \makecell{Run, Save \& \\ Delete Games} 			&                     &                                   \\ \hline
+				Session Planning					&         								&                     &                                   \\ \hline
+			\end{tabular}
+			\caption{MoSCoW analysis for \Codex, showing the differing importance of wanted features to the system as a whole. The \emph{Minimum Viable Product}(MVP) for the project is derived from the \emph{Must have} column. The \emph{Should have} column represents what features \Codex \ should contain for the system to be complete. The \emph{Could have} is what features might give \Codex \ an edge over similar systems and what would be ``nice to have''. Finally the \emph{Won't have} column represents what features will never be part of the \Codex \ system.}\label{tab:MoSCoW}
+		\end{table}
 	
-		\subsection{Use Cases}
-		Another critical part of the Design of \Codex \ is planning how the functionality of the system will flow. Use Cases and the Use Case Diagram inform a developer how a data is expected to flow between systems during a function. See Figure \ref{fig:use-case-diag} for the \Codex \ Use Case Diagram. This creates a road map for the development of a system to follow, increasing the speed of development due to the fact that developers already know what is expected of each function. At this current time, \Codex \ has 25 Use Cases. Minor functionality such as changing screens and submitting a form does not have their own Use Case, but are included in related Use Cases. 
+		\subsection{Use Cases} \label{sec:use-cases}
+		Another critical part of the Design of \Codex \ is planning how the functionality of the system will flow. \emph{Use Cases} and the \emph{Use Case Diagram } inform a developer how a data is expected to flow between systems during a function. See Figure \ref{fig:use-case-diag} for the \Codex \ Use Case Diagram. Each of the Use Cases listed in the Use Case Diagram is a single function within the \Codex \ system. The execution of each function is explained the corresponding Use Case, which the developer can refer to during development. Use Cases and Use Case Diagrams prevent errors and saves time during the development of a system.
 		
-		\begin{figure}
+		\begin{figure}[h]
 			\centering
 			\fbox{\includegraphics[width=0.5\textwidth]{use_case_diag.PNG}} 
-			\caption{\Codex \ Use Case Diagram showing the accessibility to functions and the flow of information between them} \label{fig:use-case-diag}
+			\caption{\Codex \ Use Case Diagram showing the accessibility to functions and the flow of information between them. Each node within the diagram is a Use Case and together explain how the various components of \Codex \ interact.} \label{fig:use-case-diag}
 		\end{figure}
 	
-		\begin{figure}
+		\begin{figure}[h]
 			\centering
 			\fbox{\includegraphics[width=0.75\textwidth]{use_case.PNG}}
-			\caption{The Use Case for Editing an existing Campaign within \Codex}\label{fig:use-case}	
+			\caption{One of the Use Cases for \Codex, this is for Editing an existing Campaign. Use Cases provide details to the developer about how this function is expected to function, preventing error and saving time.}\label{fig:use-case}	
 		\end{figure}
 	
 		\subsection{Low-Fi Prototyping}
