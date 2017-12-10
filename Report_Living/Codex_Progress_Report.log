@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.7.29)  6 DEC 2017 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.7.29)  8 DEC 2017 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,21 +1221,21 @@ Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 (./Codex_Progress_Report.aux)
 \openout1 = `Codex_Progress_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 33.
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1305,7 +1305,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1315,9 +1315,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./Codex_Progress_Report.out) (./Codex_Progress_Report.out)
 \@outlinefile=\write4
@@ -1329,7 +1329,7 @@ Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 32.
+LaTeX Info: Redefining \selectfont on input line 33.
 
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -1376,7 +1376,7 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
 
 (c:/texlive/texmf-local/tex/base/cmpreport/marksheetprogress.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
@@ -1449,22 +1449,22 @@ Underfull \hbox (badness 3219) in paragraph at lines 16--16
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--24
+Underfull \hbox (badness 10000) in paragraph at lines 33--24
 
  []
 
 
-Overfull \hbox (1.59996pt too wide) in paragraph at lines 32--24
+Overfull \hbox (1.59996pt too wide) in paragraph at lines 33--24
 [] 
  []
 
 
-Overfull \hbox (1.19997pt too wide) in paragraph at lines 32--24
+Overfull \hbox (1.19997pt too wide) in paragraph at lines 33--24
 [] 
  []
 
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 32--24
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 33--24
 [] 
  []
 
@@ -1473,14 +1473,14 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 32--24
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 32.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 33.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 \begin{document}
+l.33 \begin{document}
                       [1
 
 
@@ -1488,118 +1488,131 @@ l.32 \begin{document}
 ]
 \c__siunitx_mathsf_int=\count341
 \c__siunitx_mathtt_int=\count342
-LaTeX Font Info:    Try loading font information for T1+phv on input line 34.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 35.
  (c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 34.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 38.
-<DnD_Live.jpg, id=102, 4047.12pt x 3035.34pt>
+(Font)              scaled to size 15.55188pt on input line 35.
+<DnD_Live.jpg, id=104, 4047.12pt x 3035.34pt>
 File: DnD_Live.jpg Graphic file (type jpg)
 <use DnD_Live.jpg>
-Package pdftex.def Info: DnD_Live.jpg  used on input line 43. on input line 43.
+Package pdftex.def Info: DnD_Live.jpg  used on input line 41. on input line 41.
 
 Package pdftex.def Info: Requested size: 209.09904pt x 142.2349pt on input line
- 43.
-<DnD_Dice.jpg, id=103, 4047.12pt x 3035.34pt>
+ 41.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+[][]
+ []
+
+<DnD_Dice.jpg, id=105, 4047.12pt x 3035.34pt>
 File: DnD_Dice.jpg Graphic file (type jpg)
 <use DnD_Dice.jpg>
-Package pdftex.def Info: DnD_Dice.jpg  used on input line 48. on input line 48.
+Package pdftex.def Info: DnD_Dice.jpg  used on input line 45. on input line 45.
 
 Package pdftex.def Info: Requested size: 209.09904pt x 142.2349pt on input line
- 48.
+ 45.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 42--52
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+[][]
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 40--49
 []$[]$ $[]$ 
  []
 
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 53.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 53.
 [2 <./DnD_Live.jpg> <./DnD_Dice.jpg>] [3]
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 81.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 76.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 12.9599pt on input line 81.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 84.
+(Font)              scaled to size 12.9599pt on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 79.
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
-<Basic_Web_App_Architecture.PNG, id=131, 488.57532pt x 432.11438pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+<Basic_Web_App_Architecture.PNG, id=140, 488.57532pt x 432.11438pt>
 File: Basic_Web_App_Architecture.PNG Graphic file (type png)
 <use Basic_Web_App_Architecture.PNG>
-Package pdftex.def Info: Basic_Web_App_Architecture.PNG  used on input line 93.
- on input line 93.
+Package pdftex.def Info: Basic_Web_App_Architecture.PNG  used on input line 88.
+ on input line 88.
 Package pdftex.def Info: Requested size: 209.12686pt x 184.96158pt on input lin
-e 93.
+e 88.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 97.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 92.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 15.55188pt on input line 97.
- [4]
-<trello_board.PNG, id=147, 850.67813pt x 324.0105pt>
+(Font)              scaled to size 15.55188pt on input line 92.
+<trello_board.PNG, id=146, 850.67813pt x 324.0105pt>
 File: trello_board.PNG Graphic file (type png)
 <use trello_board.PNG>
-Package pdftex.def Info: trello_board.PNG  used on input line 103. on input lin
-e 103.
+Package pdftex.def Info: trello_board.PNG  used on input line 98. on input line
+ 98.
 Package pdftex.def Info: Requested size: 209.12686pt x 79.65271pt on input line
- 103.
- [5 <./Basic_Web_App_Architecture.PNG> <./trello_board.PNG>] [6] [7]
-<use_case_diag.PNG, id=178, 455.45157pt x 535.2497pt>
+ 98.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./Basic_Web_App_Architecture.PNG> <./trello_board.PNG>] [6] [7]
+<use_case_diag.PNG, id=186, 455.45157pt x 535.2497pt>
 File: use_case_diag.PNG Graphic file (type png)
 <use use_case_diag.PNG>
-Package pdftex.def Info: use_case_diag.PNG  used on input line 138. on input li
-ne 138.
+Package pdftex.def Info: use_case_diag.PNG  used on input line 133. on input li
+ne 133.
 Package pdftex.def Info: Requested size: 209.12686pt x 245.76865pt on input lin
-e 138.
-<use_case.PNG, id=179, 1534.73375pt x 2601.72pt>
+e 133.
+<use_case.PNG, id=187, 1534.73375pt x 2601.72pt>
 File: use_case.PNG Graphic file (type png)
 <use use_case.PNG>
-Package pdftex.def Info: use_case.PNG  used on input line 144. on input line 14
-4.
+Package pdftex.def Info: use_case.PNG  used on input line 139. on input line 13
+9.
 Package pdftex.def Info: Requested size: 313.69029pt x 531.7681pt on input line
- 144.
- [8
+ 139.
+
+[8
 
 
- <./use_case_diag.PNG>]
-[9 <./use_case.PNG>] [10] [11]
+ <./use_case_diag.PNG>] [9 <./use_case.PNG>] [10] [11]
 
-LaTeX Warning: Float too large for page by 10.89334pt on input line 247.
+LaTeX Warning: Float too large for page by 10.89334pt on input line 243.
 
 
-LaTeX Warning: Float too large for page by 10.89334pt on input line 292.
+LaTeX Warning: Float too large for page by 10.89334pt on input line 288.
 
 (./Codex_Progress_Report.bbl) [12
 
 ] [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
  (./Codex_Progress_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
 Package rerunfilecheck Info: File `Codex_Progress_Report.out' has not changed.
-(rerunfilecheck)             Checksum: FC373EF905D54CE166F7A5A597F7079D;1291.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
+(rerunfilecheck)             Checksum: 433C1B3D58FE881DAF1672CF7EFF43E0;1291.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
  ) 
 Here is how much of TeX's memory you used:
- 34092 strings out of 492990
- 688382 string characters out of 6136334
- 878586 words of memory out of 5000000
- 37100 multiletter control sequences out of 15000+600000
- 611162 words of font info for 94 fonts, out of 8000000 for 9000
+ 34097 strings out of 492990
+ 688484 string characters out of 6136334
+ 880880 words of memory out of 5000000
+ 37104 multiletter control sequences out of 15000+600000
+ 608440 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,10n,71p,10419b,1067s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2017/texm
@@ -1609,10 +1622,10 @@ urw/helvetic/uhvb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on Codex_Progress_Report.pdf (15 pages, 6669909 bytes).
+Output written on Codex_Progress_Report.pdf (15 pages, 6670027 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

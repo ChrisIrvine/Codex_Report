@@ -19,8 +19,13 @@ Kruchten, P.~B. (1995).
 \newblock The 4+ 1 view model of architecture.
 \newblock {\em IEEE software}, 12(6):42--50.
 
-\bibitem[Mearls and Crawford, 2014]{PlayerHandbook}
-Mearls, M. and Crawford, J. (2014).
+\bibitem[Mearls and Crawford, 2014a]{DMGuide}
+Mearls, M. and Crawford, J. (2014a).
+\newblock {\em Dungeon Master's Guide}.
+\newblock Wizards of the Coast.
+
+\bibitem[Mearls and Crawford, 2014b]{PlayerHandbook}
+Mearls, M. and Crawford, J. (2014b).
 \newblock {\em Player's Handbook}.
 \newblock Wizards of the Coast.
 
@@ -37,6 +42,11 @@ Nystr{\"o}m, A. (2011).
 \newblock Agile solo-defining and evaluating an agile software development
   process for a single software developer.
 \newblock Masters thesis, Department of Computer Science and Engineering.
+
+\bibitem[Perkins, 2014]{MonsterManual}
+Perkins, C. (2014).
+\newblock {\em Monster Manual}.
+\newblock Wizards of the Coast.
 
 \bibitem[Software, 2011]{trello}
 Software, F.~C. (2011).

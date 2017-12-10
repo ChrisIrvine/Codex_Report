@@ -19,6 +19,7 @@
 \usepackage{amsmath}
 \usepackage{lscape}
 \usepackage{hhline}
+\usepackage{caption}
 \newcommand{\ueacmp}{UEA School of Computing Sciences}
 \newcommand{\WotC}{Wizards of the Coast}
 \newcommand{\dnd}{D\&D}
@@ -33,27 +34,20 @@
 	% BOF Introduction
 	\section{Introduction} \label{sec:intro}
 	% Introduction to the project:
-	Before we can gain an understanding of the progress of \Codex, we must first understand the material that \Codex deals with. Namely Dungeons and Dragons (\dnd). \dnd is a deep and complex game, but at its core it is simple, and for the purposes of this document we only need to understand a handful of principles about the game that show why \Codex \ is being developed. These principles are: \dnd \ is random by nature, \dnd \ is based off simple mathematics that is easily modelled and \dnd \ cannot survive without a healthy population of \emph{Dungeon Masters} (DM). But first, what is \dnd \ and what is needed to play it? 
-	
-	\subsection{What is \dnd?}
-	\dnd is a popular table-top role-playing game. Where a group of players (known as the \emph{Party}), must find a way past a series of challenges (called the \emph{Campaign}), created by the Dungeon Master (\emph{DM}), as they explore the world that the DM has created. Almost everything that happens during a Campaign is determined by a series of dice rolls that decide if an attack hits an enemy or if a lock is picked open. Sometimes even something as getting from point A to point B in the world can go awry from a set of unfortunate die rolls.
+	\dnd \ is a popular table-top role-playing game which (for the purposes of \Codex) is based on the following principles. \dnd \ is random, operates using simple mathematical formulas and the game cannot survive without a \emph{Dungeon Master} (DM). For a worked example of \dnd \ please see Appendix \ref{app:example}. In the example we will see how a group of players (known as the \emph{Party}) explore the world through a series of challenges (such as hitting an enemy or picking a lock, that is collectively known as the \emph{Campaign}) of that the DM has created. A typical \dnd \ set up can been seen in Figure \ref{fig:DnDEquipmentExample}
 	
 	\begin{figure}[h] 
 		\begin{subfigure}{0.5\textwidth}
 			\includegraphics[width=1\linewidth, height=5cm, angle=180]{DnD_Live.jpg}
-			\caption{A typical \dnd set up} 
 			\label{DnDLive}
 		\end{subfigure}
 		\begin{subfigure}{0.5\textwidth}
 			\includegraphics[width=1\linewidth, height=5cm, angle=180]{DnD_Dice.jpg}
-			\caption{The Die necessary to play \dnd} 
 			\label{DnDDice}
 		\end{subfigure}
-		\caption{These two figures show the typical equipment for a \dnd \ game}
-		\label{DnDEquipmentExample}
+		\caption{(Left to Right) A: In this image we can see a typical \dnd \ table set up. The items on the table from left to right is the \emph{Monster Manual} \citep{MonsterManual}, scratch pad of paper, pens, series of die, DM's Screen, a battle mat, set of tokens, a character sheet, more die and the \emph{Player's Handbook} \citep{PlayerHandbook}. A group playing \dnd \ does not need all of the listed equipment each. The minimum equipment needed in a group, are the three core books (Player's Handbook, Monster Manual and \emph{Dungeon Master's Guide} \citep{DMGuide}), one set of die and some paper. Everything else is optional. \\ B: In this image we see the die necessary to play \dnd. They are (from left to right); 4, 6, 8, 10, 12, 20 and 100-sided. The die are denoted by the letter d followed by the number of sides (for example the 8-sided die is a d8). The d100 only has 10 sides but the sides increase in multiples of 10 and when rolled together with the d10 is known as the \emph{percentile die}.}
+		\label{fig:DnDEquipmentExample}
 	\end{figure}
-
-	Only a limited amount of equipment is needed to play \dnd; a set of die, character sheet, paper and pencil. Each group will also need the \emph{core books} (Player's Handbook, Dungeon Master's Guide and Monster Manual) between them. Optional equipment include (but is not limited to) a battle map, tokens and a DM screen. This equipment can be seen in Figure \ref{DnDEquipmentExample}. From left to right in Figure \ref{DnDEquipmentExample} (a), we can see one of the core books, a pad of paper, a collection of the various die, DM screen, battle mat with tokens, a character sheet, some more die and another of the core books. Figure \ref{DnDEquipmentExample} (b) shows the die used in \dnd \ which are; 4, 6, 8, 10, 12, 20 and 100-sided. The die are denoted as \emph{dXXX}, X being the number of sides to that die. 
 
 	\subsection{The Dungeon Master}
 	As explained above, the DM creates the world in front of the party and controls the narrative of the Campaign. This narrative could come from a purchased supplementary book written by \WotC (the company that make \dnd) or the DM could create the story themselves. Either way the DM needs to know both the world and the story they want to tell inside out. Even if then a DM needs to have excellent improvisational skills for when the Party does something unexpected. The challenge of playing the role of DM is to know what you want to happen next and guide the Party to that event without the Party feeling forced into it. It is that challenge that makes the role of DM hard work and fun at the same time. It is not uncommon for a DM to have a couple of folders full to the brim with notes \citep{GMTips}. Fulfilling the role of the DM is like being a mastermind, pulling strings from the shadows, whilst trying to look after a large litter of over-active puppies. 
@@ -200,6 +194,7 @@
 
 	\clearpage
 	\appendix
+	\section{Dungeons and Dragons Example} \label{app:example}
 	\section{Gantt Chart - Original}
 	\begin{cmpfigure}{\Codex \ Gantt Chart, outlining the major tasks and deliverables\label{gc:original}}
 		\begin{sideways}
