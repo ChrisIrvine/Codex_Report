@@ -1,34 +1,30 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.7.29)  8 DEC 2017 13:23
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.21)  6 DEC 2017 13:00
+>>>>>>> 8e155319295907b6757dac667f5ecfa3b96b4ff1
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Codex_Progress_Report.tex
 (./Codex_Progress_Report.tex
 LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
-(c:/texlive/texmf-local/tex/base/cmpreport/cmpreport.cls
-Document Class: cmpreport 30/06/2017 v5.0 (Pierre Chardaire) Third year Project
- Reports
-(c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2017/04/13 v3.23 KOMA-Script document class (article)
-(c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Babel <3.12> and hyphenation patterns for 5 language(s) loaded.
 
-(c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+! LaTeX Error: File `cmpreport.cls' not found.
 
-(c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
 
-Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
-                  Copyright (C) Markus Kohm
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.3 \makeatletter
+                 ^^M
+*** (cannot \read from terminal in nonstop modes)
 
+<<<<<<< HEAD
 ))) (c:/texlive/2017/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2017/04/13 v3.23 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
@@ -1629,3 +1625,15 @@ PDF statistics:
  55 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+ 
+Here is how much of TeX's memory you used:
+ 10 strings out of 494888
+ 257 string characters out of 6179506
+ 46007 words of memory out of 5000000
+ 3423 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 10i,0n,7p,65b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+>>>>>>> 8e155319295907b6757dac667f5ecfa3b96b4ff1
