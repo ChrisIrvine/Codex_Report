@@ -1,0 +1,25 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Shortcomings of D\046D}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{The Dungeon Master}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{D\046D is random}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{D\046D content is overlooked}{subsection.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.2}{Fixing the Shortcomings with Codex}{section.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Achieving Codex}{subsection.1.2}% 7
+\BOOKMARK [1][-]{section.2}{Codex Design}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Iterative Design}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.2}{The Use of ReactJS and Node.JS}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.3}{Codex System Requirements}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.4}{Use Cases}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.5}{Low-Fi Prototyping}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.6}{Med-Fi Prototyping}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.7}{Object Orientated Design}{section.2}% 15
+\BOOKMARK [1][-]{section.3}{Codex Implementation Plan}{}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Codex Gantt Chart}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Language and Architecture}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Outstanding Issues}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Solutions}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 21
+\BOOKMARK [1][-]{section*.9}{References}{}% 22
+\BOOKMARK [1][-]{appendix.A}{Dungeons and Dragons Glossary}{}% 23
+\BOOKMARK [1][-]{appendix.B}{Gantt Chart - Original}{}% 24
+\BOOKMARK [1][-]{appendix.C}{Gantt Chart - New}{}% 25

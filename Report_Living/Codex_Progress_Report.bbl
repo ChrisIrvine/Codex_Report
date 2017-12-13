@@ -29,6 +29,13 @@ Mearls, M. and Crawford, J. (2014b).
 \newblock {\em Player's Handbook}.
 \newblock Wizards of the Coast.
 
+\bibitem[Nielsen et~al., 2002]{thinkaloud}
+Nielsen, J., Clemmensen, T., and Yssing, C. (2002).
+\newblock Getting access to what goes on in people's heads?: reflections on the
+  think-aloud technique.
+\newblock In {\em Proceedings of the second Nordic conference on Human-computer
+  interaction}, pages 101--110. ACM.
+
 \bibitem[Node.js, 2017]{NodejsOfficial}
 Node.js, F. (2017).
 \newblock Node.js.
@@ -48,9 +55,5 @@ Perkins, C. (2014).
 Schwaber, K. (1997).
 \newblock {\em SCRUM Development Process}, pages 117--134.
 \newblock Springer London, London.
-
-\bibitem[Software, 2011]{trello}
-Software, F.~C. (2011).
-\newblock Trello.
 
 \end{thebibliography}

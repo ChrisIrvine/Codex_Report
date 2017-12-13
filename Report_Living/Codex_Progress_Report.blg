@@ -9,47 +9,45 @@ Warning--entry type for "ReactJSOfficial" isn't style-file defined
 --line 178 of file projectbib.bib
 Warning--entry type for "marvelapp" isn't style-file defined
 --line 254 of file projectbib.bib
-Warning--entry type for "trello" isn't style-file defined
---line 261 of file projectbib.bib
 You've used 11 entries,
             1935 wiz_defined-function locations,
-            535 strings with 4812 characters,
-and the built_in function-call counts, 3209 in all, are:
-= -- 319
-> -- 89
+            539 strings with 5027 characters,
+and the built_in function-call counts, 3530 in all, are:
+= -- 355
+> -- 100
 < -- 12
-+ -- 29
-- -- 26
-* -- 215
-:= -- 595
-add.period$ -- 29
++ -- 33
+- -- 30
+* -- 240
+:= -- 631
+add.period$ -- 31
 call.type$ -- 11
-change.case$ -- 65
+change.case$ -- 67
 chr.to.int$ -- 10
 cite$ -- 11
-duplicate$ -- 143
-empty$ -- 231
-format.name$ -- 41
-if$ -- 619
+duplicate$ -- 160
+empty$ -- 258
+format.name$ -- 45
+if$ -- 699
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 54
+missing$ -- 10
+newline$ -- 55
 num.names$ -- 33
-pop$ -- 64
+pop$ -- 71
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 70
 quote$ -- 0
-skip$ -- 116
+skip$ -- 128
 stack$ -- 0
-substring$ -- 185
-swap$ -- 15
-text.length$ -- 1
+substring$ -- 217
+swap$ -- 25
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 58
 warning$ -- 0
-while$ -- 27
+while$ -- 30
 width$ -- 0
-write$ -- 131
-(There were 4 warnings)
+write$ -- 135
+(There were 3 warnings)
