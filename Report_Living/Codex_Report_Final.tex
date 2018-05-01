@@ -1,0 +1,168 @@
+% Project Proposal Document
+\documentclass[final]{cmpreport}
+\makeatletter
+\input{t1pcr.fd}
+\makeatother
+\setlength{\footnotesep}{3ex}
+\title{\Codex: A Progressive Web App in React for table-top role-playing games}
+\author{Christopher Alastair Irvine}
+\registration{100036248}
+\supervisor{Dr Katharina Huber}
+\ccode{CMP-6013Y}
+\summary{This project is the tits and here's why...}
+\acknowledgements{
+	I would like to thank Dr Katharina Huber for taking on the supervision of this project, 
+	and guiding me towards success. Additionally I would like to thank Wizards of the Coast 
+	for their generosity and kindness in allowing the use of their Intellectual Property for this project.
+}
+\usepackage{rotating}
+\newcommand{\ueacmp}{UEA School of Computing Sciences}
+\newcommand{\WotC}{Wizards of the Coast}
+\newcommand{\dnd}{D\&D}
+\newcommand{\sem}{Software Engineering Model}
+\newcommand{\sems}{Software Engineering Models}
+\newcommand{\Codex}{\textsc{Codex}}
+\newcommand{\AgileSolo}{\emph{Agile Solo}}
+% EOF Preamble and Macros
+	
+% BOF Document
+\begin{document}	
+	% BOF Introduction
+	\section{Introduction} \label{sec:introduction}
+	hello there
+	
+	\section{What is \Codex?} \label{sec:what-codex}
+	boo
+	
+		\subsection{Context} \label{sec:context}
+		boo
+		
+		\subsection{Purpose} \label{sec:purpose}
+		boo
+	
+	\section{Related Work} \label{sec:related}
+	boo
+	
+		\subsection{Software Engineering} \label{sec:software-eng}
+		boo
+			
+			\subsubsection{What is Software Engineering?} \label{sec:what-se}
+			boo
+				
+			\subsubsection{What is Agile?} \label{sec:what-agile}
+			boo
+			
+			\subsubsection{Agile Solo} \label{sec:agile-solo}
+			boo
+			
+			\subsubsection{XP for One} \label{sec:xp-for-one}
+			boo
+			
+		\subsection{Web App Technology} \label{sec:web-app}
+		boo
+		
+			\subsubsection{What is a Web App?} \label{sec:what-web-app}
+			boo
+				
+			\subsubsection{ReactJS} \label{sec:react-js}
+			boo
+			
+			\subsubsection{Semantic UI} \label{sec:semantic-ui}
+			boo
+			
+			\subsubsection{Databases within Web Apps} \label{sec:databases}
+			boo
+			
+	\section{Development and Implementation} \label{sec:dev-and-imp}
+	boo
+	
+		\subsection{Using Agile Solo} \label{sec:use-agile-solo}
+		boo
+			
+		\subsection{Design} \label{sec:design}
+		boo
+		
+		\subsection{Development Observations} \label{sec:dev-obs}
+		boo
+		
+	\section{Outcome of the \Codex \ project} \label{sec:outcomes}
+	boo
+	
+		\subsection{Development of \Codex} \label{sec:codex-development}
+		boo
+			
+		\subsection{Effectiveness of Agile Solo} \label{sec:agile-solo-effect}
+		boo	
+		
+		\subsection{Feedback on the \Codex \ app} \label{sec:feedback}
+		boo
+		
+	\section{Evaluation of \Codex} \label{sec:evaluation}
+	boo
+	
+		\subsection{Development Issues} \label{sec:dev-eval}
+		boo
+			
+		\subsection{Agile Solo Evaluation} \label{sec:agile-solo-eval}
+		boo
+			
+	\section{Conclusions} \label{sec:conclusions}
+	The \Codex \ project was to software engineer a progressive web app built in ReactJS, using an agile methodology. The principle challenge of \Codex \ was that, unlike the majority of software engineering project, there was only one developer. Agile methodologies are designed to be used by a group or groups of developers, with designated roles for individuals within the team. As part of the preparation for \Codex, a single developer methodology had to be found, these were \AgileSolo \ and \emph{XP for One}. \AgileSolo \ was selected to be the principle methodology for the development of \Codex. 
+	
+		\subsection{Agile Solo} \label{sec:agile-solo-conc}
+		Agile Solo, as described in Section \ref{sec:agile-solo}, is a methodology that was developed because there was no Agile development methodology designed for solo developer projects.
+		
+		\subsection{\Codex} \label{sec:codex-conc}
+	
+	\appendix
+	
+	\section{\Codex \ Gantt Chart}
+	\begin{cmpfigure}{\Codex \ Gantt Chart, outlining the major tasks and deliverables\label{pplan}}
+		\begin{sideways}
+			\newganttchartelement{voidbar}{
+				voidbar/.style={draw=black, top color=black!25, bottom color=black!23
+			}}
+			\begin{ganttchart}[y unit chart = 0.86cm, y unit title = 0.86cm, x unit=0.45cm, vgrid, title label font=\scriptsize,
+				canvas/.style={draw=black, dotted}]{1}{34}
+				\gantttitle{Project schedule shown for e-vision week numbers
+					and semester week numbers}{34} \\
+				
+				\gantttitlelist{8,...,41}{1}\\
+				\gantttitlelist{1,...,12}{1} \gantttitle{CB}{4}
+				\gantttitlelist{1,...,9}{1} \gantttitle{EB}{4}
+				\gantttitlelist{10,...,14}{1}\\
+				
+				%The elements, bars and milestones, are identified as elem0, elem1, etc.
+				\ganttbar{Project Proposal}{1}{2} \\        		%elem0  
+				\ganttbar{Literature Review}{2}{5} \\      			%elem1 
+				\ganttmilestone{Literature Review Finished}{5} \\	%elem2
+				\ganttbar{Design Doc. Iteration 1}{4}{8} \\ 		%elem3
+				\ganttbar{Development Iteration 1}{9}{11} \\		%elem4
+				\ganttbar{Progress Report}{11}{12} 					%elem5
+				\ganttmilestone{}{12} \\							%elem6
+				\ganttbar{Development Iteration 2}{11}{12}  		%elem7
+				%week 1 of semester 2 is the 17th week in schedule 
+				\ganttvoidbar{}{13}{16} \\                     		%elem8
+				\ganttbar{Final Report Writing 1}{17}{19} 	        %elem9
+				\ganttmilestone{}{19} \\							%elem10
+				\ganttbar{Design Doc. Iteration 2}{19}{20} \\      	%elem11
+				\ganttbar{Development Iteration 3}{21}{26} \\		%elem12
+				\ganttbar{Testing}{24}{26} \\						%elem13
+				\ganttmilestone{Code Delivery}{26} \\       		%elem14
+				\ganttbar{Final Report Writing 2}{27}{30} \\  		%elem15
+				\ganttbar{Inspection preparation}{31}{34}   		%elem16
+				
+				\ganttlink{elem0}{elem1} \ganttlink{elem1}{elem2} \ganttlink{elem2}{elem3}
+				\ganttlink{elem3}{elem4} \ganttlink{elem4}{elem5} \ganttlink{elem5}{elem6}
+				\ganttlink{elem5}{elem7} \ganttlink{elem8}{elem9} \ganttlink{elem10}{elem11}
+				\ganttlink{elem11}{elem12} \ganttlink{elem12}{elem13} 
+				\ganttlink{elem13}{elem14} \ganttlink{elem14}{elem15}
+				\ganttlink{elem15}{elem16}
+			\end{ganttchart}
+		\end{sideways}
+	\end{cmpfigure}	
+	
+	\clearpage	
+	\bibliography{projectbib}
+\end{document}
+% EOF Document
