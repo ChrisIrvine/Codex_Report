@@ -5,49 +5,83 @@ The style file: apalike.bst
 Database file #1: projectbib.bib
 Warning--entry type for "DnDHistory" isn't style-file defined
 --line 1 of file projectbib.bib
+Warning--entry type for "DesignDocExample" isn't style-file defined
+--line 34 of file projectbib.bib
+Warning--entry type for "SoloXP" isn't style-file defined
+--line 50 of file projectbib.bib
+Warning--entry type for "ReactJSOfficial" isn't style-file defined
+--line 166 of file projectbib.bib
 Warning--entry type for "GMTips" isn't style-file defined
---line 441 of file projectbib.bib
+--line 223 of file projectbib.bib
+Warning--entry type for "marvelapp" isn't style-file defined
+--line 251 of file projectbib.bib
+Warning--entry type for "trello" isn't style-file defined
+--line 258 of file projectbib.bib
 Warning--entry type for "dnd-beyond" isn't style-file defined
---line 543 of file projectbib.bib
-You've used 9 entries,
+--line 274 of file projectbib.bib
+Warning--entry type for "reddit-dnd" isn't style-file defined
+--line 281 of file projectbib.bib
+Warning--entry type for "roll20" isn't style-file defined
+--line 288 of file projectbib.bib
+Warning--entry type for "roll20-example" isn't style-file defined
+--line 295 of file projectbib.bib
+Warning--entry type for "kfc-homepage" isn't style-file defined
+--line 303 of file projectbib.bib
+Warning--entry type for "scrum-online" isn't style-file defined
+--line 318 of file projectbib.bib
+Warning--entry type for "ReactJSPopularity" isn't style-file defined
+--line 346 of file projectbib.bib
+Warning--entry type for "SemanticUI" isn't style-file defined
+--line 353 of file projectbib.bib
+Repeated entry---line 360 of file projectbib.bib
+ : @book{testing
+ :              ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "github" isn't style-file defined
+--line 367 of file projectbib.bib
+Warning--entry type for "codeship" isn't style-file defined
+--line 374 of file projectbib.bib
+Warning--entry type for "chaos-report" isn't style-file defined
+--line 381 of file projectbib.bib
+You've used 36 entries,
             1935 wiz_defined-function locations,
-            524 strings with 4645 characters,
-and the built_in function-call counts, 2637 in all, are:
-= -- 253
-> -- 87
-< -- 10
-+ -- 27
-- -- 26
-* -- 185
-:= -- 493
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 53
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 114
-empty$ -- 189
-format.name$ -- 43
-if$ -- 507
+            672 strings with 7892 characters,
+and the built_in function-call counts, 10523 in all, are:
+= -- 1058
+> -- 335
+< -- 38
++ -- 103
+- -- 100
+* -- 717
+:= -- 1957
+add.period$ -- 108
+call.type$ -- 36
+change.case$ -- 217
+chr.to.int$ -- 35
+cite$ -- 36
+duplicate$ -- 452
+empty$ -- 725
+format.name$ -- 159
+if$ -- 2028
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 48
-num.names$ -- 27
-pop$ -- 55
+missing$ -- 29
+newline$ -- 182
+num.names$ -- 108
+pop$ -- 192
 preamble$ -- 1
-purify$ -- 58
+purify$ -- 229
 quote$ -- 0
-skip$ -- 89
+skip$ -- 369
 stack$ -- 0
-substring$ -- 123
-swap$ -- 7
-text.length$ -- 1
+substring$ -- 551
+swap$ -- 37
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 192
 warning$ -- 0
-while$ -- 19
+while$ -- 83
 width$ -- 0
-write$ -- 112
-(There were 3 warnings)
+write$ -- 441
+(There was 1 error message)

@@ -1,10 +1,83 @@
 \begin{thebibliography}{}
 
+\bibitem[Anderson, 2010]{kanban}
+Anderson, D.~J. (2010).
+\newblock {\em Kanban: successful evolutionary change for your technology
+  business}.
+\newblock Blue Hole Press.
+
+\bibitem[App, 2013]{marvelapp}
+App, M. (2013).
+\newblock Marvel app.
+
+\bibitem[Association et~al., 2010]{SE-def}
+Association, I.~S. et~al. (2010).
+\newblock Systems and software engineering—vocabulary iso/iec/ieee 24765:
+  2010.
+\newblock {\em Iso/Iec/Ieee}, 24765:1--418.
+
+\bibitem[Astels, 2003]{TDD}
+Astels, D. (2003).
+\newblock {\em Test Driven Development: A Practical Guide}.
+\newblock Prentice Hall Professional Technical Reference.
+
+\bibitem[Beck and Gamma, 2000]{XP}
+Beck, K. and Gamma, E. (2000).
+\newblock {\em Extreme programming explained: embrace change}.
+\newblock addison-wesley professional.
+
+\bibitem[CloudBees, 2018]{codeship}
+CloudBees (2018).
+\newblock Codeship.
+\newblock \url{http://codeship.com/}.
+
+\bibitem[De~Groef, 2016]{SecurityWebApps}
+De~Groef, W. (2016).
+\newblock {\em Client- and Server-Side Security Technologies for JavaScript Web
+  Applications}.
+\newblock Phd thesis, Faculty of Engineering Science.
+
+\bibitem[El-Far and Whittaker, 2002]{testing}
+El-Far, I.~K. and Whittaker, J.~A. (2002).
+\newblock Model-based software testing.
+\newblock {\em Encyclopedia of software engineering}.
+
 \bibitem[Ewalt, 2014]{DnDPeople}
 Ewalt, D.~M. (2014).
 \newblock {\em Of dice and men: The story of Dungeons \& Dragons and the people
   who play it}.
 \newblock Simon and Schuster.
+
+\bibitem[ExtremeProgrammingChallenge, 2006]{SoloXP}
+ExtremeProgrammingChallenge (2006).
+\newblock Extreme programming for one.
+\newblock \url{http://xp.c2.com/ExtremeProgrammingForOne.html}.
+
+\bibitem[{Facebook, Inc.}, 2017]{ReactJSOfficial}
+{Facebook, Inc.} (2017).
+\newblock Reactjs.
+\newblock \url{https://reactjs.org}.
+
+\bibitem[Flanagan, 2006]{JavaScriptGuide}
+Flanagan, D. (2006).
+\newblock {\em JavaScript: the definitive guide}.
+\newblock " O'Reilly Media, Inc.".
+
+\bibitem[Fling, 2009]{web-apps}
+Fling, B. (2009).
+\newblock {\em Mobile design and development: Practical concepts and techniques
+  for creating mobile sites and Web apps}.
+\newblock " O'Reilly Media, Inc.".
+
+\bibitem[Fowler and Highsmith, 2001]{AgileManifesto}
+Fowler, M. and Highsmith, J. (2001).
+\newblock The agile manifesto.
+\newblock {\em Software Development}, 9(8):28--35.
+
+\bibitem[{Github, Inc.}, 2018]{github}
+{Github, Inc.} (2018).
+\newblock Github.
+\newblock \url{https://github.com/}.
 
 \bibitem[Gygax and Arneson, 1974]{DnDOriginal}
 Gygax, G. and Arneson, D. (1974).
@@ -15,6 +88,23 @@ Gygax, G. and Arneson, D. (1974).
 Holmes, J.~E. (1980).
 \newblock Confessions of a dungeon master.
 \newblock {\em Psychology Today}, 14(6):84--94.
+
+\bibitem[Horton and Vice, 2016]{MasteringReact}
+Horton, A. and Vice, R. (2016).
+\newblock {\em Mastering React: Master the art of building modern web
+  applications using React}.
+\newblock Packt Publishing.
+
+\bibitem[James, 2017]{scrum-online}
+James, M. (2017).
+\newblock Scrum methodology.
+\newblock \url{http://scrummethodology.com/}.
+
+\bibitem[McElrath, 2007]{DesignDocExample}
+McElrath, R. (2007).
+\newblock Xml legal document utility software design document.
+\newblock
+  \url{http://robotics.ee.uwa.edu.au/courses/design/examples/example_design.pdf}.
 
 \bibitem[Mearls and Crawford, 2014a]{DMGuide}
 Mearls, M. and Crawford, J. (2014a).
@@ -31,6 +121,13 @@ Mercer, M. (2016).
 \newblock Setting up your gamemaster's screen! (gm tips w/ matt mercer).
 \newblock \url{https://www.youtube.com/watch?v=YRMVTmbe-Is}.
 
+\bibitem[Nielsen et~al., 2002]{thinkaloud}
+Nielsen, J., Clemmensen, T., and Yssing, C. (2002).
+\newblock Getting access to what goes on in people's heads?: reflections on the
+  think-aloud technique.
+\newblock In {\em Proceedings of the second Nordic conference on Human-computer
+  interaction}, pages 101--110. ACM.
+
 \bibitem[Perkins, 2014]{MonsterManual}
 Perkins, C. (2014).
 \newblock {\em Monster Manual}.
@@ -41,6 +138,53 @@ Peterson, J. (2017).
 \newblock Fourty years of adventure.
 \newblock
   \url{http://dnd.wizards.com/dungeons-and-dragons/what-dd/history/history-forty-years-adventure}.
+
+\bibitem[Richards and {The Orr Group, LLC}, 2012]{roll20-example}
+Richards, K. and {The Orr Group, LLC} (2012).
+\newblock Crooked staff blog.
+\newblock
+  \url{http://crookedstaff.blogspot.co.uk/2012/12/experimenting-with-roll-20-virtual.html}.
+
+\bibitem[Schwaber, 1997]{Scrum}
+Schwaber, K. (1997).
+\newblock {\em SCRUM Development Process}, pages 117--134.
+\newblock Springer London, London.
+
+\bibitem[Software, 2011]{trello}
+Software, F.~C. (2011).
+\newblock Trello.
+\newblock \url{https://www.trello.com}.
+
+\bibitem[{Standish Group}, 2014]{chaos-report}
+{Standish Group} (2014).
+\newblock Chaos report.
+\newblock \url{https://www.projectsmart.co.uk/white-papers/chaos-report.pdf}.
+
+\bibitem[{The Orr Group, LLC}, 2018]{roll20}
+{The Orr Group, LLC} (2018).
+\newblock Roll20.
+\newblock \url{https://roll20.net/}.
+
+\bibitem[Thinkwik, 2017]{ReactJSPopularity}
+Thinkwik (2017).
+\newblock Why reactjs is gaining so much popularity these days.
+\newblock
+  \url{https://medium.com/@thinkwik/why-reactjs-is-gaining-so-much-popularity-these-days-c3aa686ec0b3}.
+
+\bibitem[Thomason, 2018]{SemanticUI}
+Thomason, L. (2018).
+\newblock Semantic ui react.
+\newblock \url{https://react.semantic-ui.com/}.
+
+\bibitem[Toltz and Barzilai, 2016]{kfc-homepage}
+Toltz, I. and Barzilai, J. (2016).
+\newblock Kobold fight club.
+\newblock \url{https://kobold.club/}.
+
+\bibitem[Various and {reddit inc}, 2018]{reddit-dnd}
+Various and {reddit inc} (2018).
+\newblock Reddit.
+\newblock \url{https://www.reddit.com/r/DnD/}.
 
 \bibitem[{Wizards of the Coast} and {Curse, Inc.}, 2018]{dnd-beyond}
 {Wizards of the Coast} and {Curse, Inc.} (2018).
