@@ -1,35 +1,37 @@
-\contentsline {section}{\numberline {1}Introduction}{7}{section.1}
+\contentsline {section}{\numberline {1}Introduction}{6}{section.1}
 \contentsline {section}{\numberline {2}What is \textsc {Codex}?}{7}{section.2}
 \contentsline {subsection}{\numberline {2.1}Context}{7}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}What is Dungeons and Dragons?}{7}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}How does a Dungeon Master differ from a Player?}{11}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Why was the \textsc {Codex}\ app developed?}{12}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.1}What is Dungeons and Dragons?}{9}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}How does a Dungeon Master differ from a Player?}{12}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Why was the \textsc {Codex}\ web app developed?}{13}{subsubsection.2.1.3}
 \contentsline {section}{\numberline {3}Related Work}{13}{section.3}
 \contentsline {subsection}{\numberline {3.1}Dungeon and Dragons Apps}{13}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}D\&D\ Beyond}{13}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Roll20}{15}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Kobold Fight Club}{16}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {3.2}Software Engineering}{17}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}What is Software Engineering?}{17}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}What is Agile?}{22}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Agile Solo}{25}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}XP for One}{27}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Web App Technology}{28}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}What is a Web App?}{28}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}ReactJS}{28}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}Semantic UI}{29}{subsubsection.3.3.3}
-\contentsline {section}{\numberline {4}Development and Implementation}{30}{section.4}
-\contentsline {subsection}{\numberline {4.1}Using Agile Solo}{30}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Design}{31}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Development of \textsc {Codex}}{34}{subsection.4.3}
-\contentsline {section}{\numberline {5}Outcome of the \textsc {Codex}\ project}{37}{section.5}
-\contentsline {subsection}{\numberline {5.1}Development Observations}{37}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Effectiveness of Agile Solo}{38}{subsection.5.2}
-\contentsline {section}{\numberline {6}Evaluation of \textsc {Codex}}{39}{section.6}
-\contentsline {subsection}{\numberline {6.1}Feedback on the \textsc {Codex}\ app}{39}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Development Issues}{39}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Agile Solo Evaluation}{39}{subsection.6.3}
-\contentsline {section}{\numberline {7}Conclusions}{39}{section.7}
-\contentsline {subsection}{\numberline {7.1}Agile Solo}{40}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}\textsc {Codex}}{40}{subsection.7.2}
-\contentsline {section}{References}{42}{section*.21}
+\contentsline {subsubsection}{\numberline {3.1.1}D\&D\ Beyond}{14}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Roll20}{16}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Kobold Fight Club}{17}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Software Engineering}{18}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}What is Software Engineering?}{19}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}What is Agile?}{23}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Agile Solo}{26}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}XP for One}{28}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}Web App Technology}{29}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}What is a Web App?}{29}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}ReactJS}{30}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Node.js Servers and MySQL Databases}{31}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}ReactJS/NodeJS/MySQL Stack}{32}{subsubsection.3.3.4}
+\contentsline {section}{\numberline {4}Development and Implementation}{32}{section.4}
+\contentsline {subsection}{\numberline {4.1}Using Agile Solo}{32}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Design}{33}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Development of \textsc {Codex}}{35}{subsection.4.3}
+\contentsline {section}{\numberline {5}Outcome of the \textsc {Codex}\ project}{40}{section.5}
+\contentsline {subsection}{\numberline {5.1}Development Observations}{40}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Effectiveness of Agile Solo}{41}{subsection.5.2}
+\contentsline {section}{\numberline {6}Evaluation of \textsc {Codex}}{42}{section.6}
+\contentsline {subsection}{\numberline {6.1}Feedback on the \textsc {Codex}\ web app}{43}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Development Issues}{45}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Agile Solo Evaluation}{46}{subsection.6.3}
+\contentsline {section}{\numberline {7}Conclusions}{47}{section.7}
+\contentsline {subsection}{\numberline {7.1}Agile Solo}{48}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}\textsc {Codex}\ web app}{49}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Final Conclusion}{50}{subsection.7.3}
+\contentsline {section}{References}{51}{section*.19}

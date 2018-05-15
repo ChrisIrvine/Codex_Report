@@ -6,16 +6,6 @@ Anderson, D.~J. (2010).
   business}.
 \newblock Blue Hole Press.
 
-\bibitem[App, 2013]{marvelapp}
-App, M. (2013).
-\newblock Marvel app.
-
-\bibitem[Association et~al., 2010]{SE-def}
-Association, I.~S. et~al. (2010).
-\newblock Systems and software engineering—vocabulary iso/iec/ieee 24765:
-  2010.
-\newblock {\em Iso/Iec/Ieee}, 24765:1--418.
-
 \bibitem[Astels, 2003]{TDD}
 Astels, D. (2003).
 \newblock {\em Test Driven Development: A Practical Guide}.
@@ -58,21 +48,27 @@ ExtremeProgrammingChallenge (2006).
 \newblock Reactjs.
 \newblock \url{https://reactjs.org}.
 
-\bibitem[Flanagan, 2006]{JavaScriptGuide}
-Flanagan, D. (2006).
-\newblock {\em JavaScript: the definitive guide}.
-\newblock " O'Reilly Media, Inc.".
-
 \bibitem[Fling, 2009]{web-apps}
 Fling, B. (2009).
 \newblock {\em Mobile design and development: Practical concepts and techniques
   for creating mobile sites and Web apps}.
 \newblock " O'Reilly Media, Inc.".
 
+\bibitem[{Fog Creek Software}, 2011]{trello}
+{Fog Creek Software} (2011).
+\newblock Trello.
+\newblock \url{https://www.trello.com}.
+
 \bibitem[Fowler and Highsmith, 2001]{AgileManifesto}
 Fowler, M. and Highsmith, J. (2001).
 \newblock The agile manifesto.
 \newblock {\em Software Development}, 9(8):28--35.
+
+\bibitem[Galitz, 2007]{GUIDesign}
+Galitz, W.~O. (2007).
+\newblock {\em The essential guide to user interface design: an introduction to
+  GUI design principles and techniques}.
+\newblock John Wiley \& Sons.
 
 \bibitem[{Github, Inc.}, 2018]{github}
 {Github, Inc.} (2018).
@@ -95,16 +91,31 @@ Horton, A. and Vice, R. (2016).
   applications using React}.
 \newblock Packt Publishing.
 
+\bibitem[{IEEE Standards Association} et~al., 2010]{SE-def}
+{IEEE Standards Association} et~al. (2010).
+\newblock Systems and software engineering—vocabulary iso/iec/ieee 24765:
+  2010.
+\newblock {\em Iso/Iec/Ieee}, 24765:1--418.
+
 \bibitem[James, 2017]{scrum-online}
 James, M. (2017).
 \newblock Scrum methodology.
 \newblock \url{http://scrummethodology.com/}.
+
+\bibitem[{MavelApp}, 2013]{marvelapp}
+{MavelApp} (2013).
+\newblock Marvel app.
 
 \bibitem[McElrath, 2007]{DesignDocExample}
 McElrath, R. (2007).
 \newblock Xml legal document utility software design document.
 \newblock
   \url{http://robotics.ee.uwa.edu.au/courses/design/examples/example_design.pdf}.
+
+\bibitem[Mearls, 2016]{Volos}
+Mearls, M. (2016).
+\newblock {\em Volo`s Guide to Monsters}.
+\newblock Wizards of the Coast.
 
 \bibitem[Mearls and Crawford, 2014a]{DMGuide}
 Mearls, M. and Crawford, J. (2014a).
@@ -121,12 +132,30 @@ Mercer, M. (2016).
 \newblock Setting up your gamemaster's screen! (gm tips w/ matt mercer).
 \newblock \url{https://www.youtube.com/watch?v=YRMVTmbe-Is}.
 
+\bibitem[Naveen, 2015]{spiral-model-source}
+Naveen (2015).
+\newblock What is spiral model in software testing and what are advantages and
+  disadvantages of spiral model.
+\newblock
+  \url{http://testingfreak.com/spiral-model-software-testing-advantages-disadvantages-spiral-model/}.
+
 \bibitem[Nielsen et~al., 2002]{thinkaloud}
 Nielsen, J., Clemmensen, T., and Yssing, C. (2002).
 \newblock Getting access to what goes on in people's heads?: reflections on the
   think-aloud technique.
 \newblock In {\em Proceedings of the second Nordic conference on Human-computer
   interaction}, pages 101--110. ACM.
+
+\bibitem[{Node.js Foundation}, 2018]{nodejsOfficial}
+{Node.js Foundation} (2018).
+\newblock Node.js.
+\newblock \url{https://nodejs.org/en/}.
+
+\bibitem[Nystr{\"o}m, 2011]{AgileSolo}
+Nystr{\"o}m, A. (2011).
+\newblock Agile solo-defining and evaluating an agile software development
+  process for a single software developer.
+\newblock Masters thesis, Department of Computer Science and Engineering.
 
 \bibitem[Perkins, 2014]{MonsterManual}
 Perkins, C. (2014).
@@ -139,6 +168,11 @@ Peterson, J. (2017).
 \newblock
   \url{http://dnd.wizards.com/dungeons-and-dragons/what-dd/history/history-forty-years-adventure}.
 
+\bibitem[Rambeau, 2017]{react-popularity}
+Rambeau, M. (2017).
+\newblock 2017 javascript rising stars.
+\newblock \url{https://risingstars.js.org/2017/en/#section-all}.
+
 \bibitem[Richards and {The Orr Group, LLC}, 2012]{roll20-example}
 Richards, K. and {The Orr Group, LLC} (2012).
 \newblock Crooked staff blog.
@@ -150,10 +184,11 @@ Schwaber, K. (1997).
 \newblock {\em SCRUM Development Process}, pages 117--134.
 \newblock Springer London, London.
 
-\bibitem[Software, 2011]{trello}
-Software, F.~C. (2011).
-\newblock Trello.
-\newblock \url{https://www.trello.com}.
+\bibitem[Shin et~al., 2011]{dev-metrics}
+Shin, Y., Meneely, A., Williams, L., and Osborne, J.~A. (2011).
+\newblock Evaluating complexity, code churn, and developer activity metrics as
+  indicators of software vulnerabilities.
+\newblock {\em IEEE Transactions on Software Engineering}, 37(6):772--787.
 
 \bibitem[{Standish Group}, 2014]{chaos-report}
 {Standish Group} (2014).
@@ -171,11 +206,6 @@ Thinkwik (2017).
 \newblock
   \url{https://medium.com/@thinkwik/why-reactjs-is-gaining-so-much-popularity-these-days-c3aa686ec0b3}.
 
-\bibitem[Thomason, 2018]{SemanticUI}
-Thomason, L. (2018).
-\newblock Semantic ui react.
-\newblock \url{https://react.semantic-ui.com/}.
-
 \bibitem[Toltz and Barzilai, 2016]{kfc-homepage}
 Toltz, I. and Barzilai, J. (2016).
 \newblock Kobold fight club.
@@ -185,6 +215,11 @@ Toltz, I. and Barzilai, J. (2016).
 Various and {reddit inc} (2018).
 \newblock Reddit.
 \newblock \url{https://www.reddit.com/r/DnD/}.
+
+\bibitem[Wells, 2009]{xp-diag}
+Wells, D. (2009).
+\newblock Introducing extreme programming.
+\newblock \url{http://www.extremeprogramming.org/introduction.html}.
 
 \bibitem[{Wizards of the Coast} and {Curse, Inc.}, 2018]{dnd-beyond}
 {Wizards of the Coast} and {Curse, Inc.} (2018).

@@ -10,78 +10,84 @@ Warning--entry type for "DesignDocExample" isn't style-file defined
 Warning--entry type for "SoloXP" isn't style-file defined
 --line 50 of file projectbib.bib
 Warning--entry type for "ReactJSOfficial" isn't style-file defined
---line 166 of file projectbib.bib
+--line 149 of file projectbib.bib
 Warning--entry type for "GMTips" isn't style-file defined
---line 223 of file projectbib.bib
+--line 166 of file projectbib.bib
 Warning--entry type for "marvelapp" isn't style-file defined
---line 251 of file projectbib.bib
+--line 174 of file projectbib.bib
 Warning--entry type for "trello" isn't style-file defined
---line 258 of file projectbib.bib
+--line 181 of file projectbib.bib
 Warning--entry type for "dnd-beyond" isn't style-file defined
---line 274 of file projectbib.bib
+--line 197 of file projectbib.bib
 Warning--entry type for "reddit-dnd" isn't style-file defined
---line 281 of file projectbib.bib
+--line 204 of file projectbib.bib
 Warning--entry type for "roll20" isn't style-file defined
---line 288 of file projectbib.bib
+--line 211 of file projectbib.bib
 Warning--entry type for "roll20-example" isn't style-file defined
---line 295 of file projectbib.bib
+--line 218 of file projectbib.bib
 Warning--entry type for "kfc-homepage" isn't style-file defined
---line 303 of file projectbib.bib
+--line 226 of file projectbib.bib
 Warning--entry type for "scrum-online" isn't style-file defined
---line 318 of file projectbib.bib
+--line 241 of file projectbib.bib
 Warning--entry type for "ReactJSPopularity" isn't style-file defined
---line 346 of file projectbib.bib
-Warning--entry type for "SemanticUI" isn't style-file defined
---line 353 of file projectbib.bib
-Repeated entry---line 360 of file projectbib.bib
+--line 269 of file projectbib.bib
+Repeated entry---line 283 of file projectbib.bib
  : @book{testing
  :              ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "github" isn't style-file defined
---line 367 of file projectbib.bib
+--line 290 of file projectbib.bib
 Warning--entry type for "codeship" isn't style-file defined
---line 374 of file projectbib.bib
+--line 297 of file projectbib.bib
 Warning--entry type for "chaos-report" isn't style-file defined
---line 381 of file projectbib.bib
-You've used 36 entries,
+--line 304 of file projectbib.bib
+Warning--entry type for "react-popularity" isn't style-file defined
+--line 323 of file projectbib.bib
+Warning--entry type for "nodejsOfficial" isn't style-file defined
+--line 330 of file projectbib.bib
+Warning--entry type for "spiral-model-source" isn't style-file defined
+--line 344 of file projectbib.bib
+Warning--entry type for "xp-diag" isn't style-file defined
+--line 352 of file projectbib.bib
+You've used 42 entries,
             1935 wiz_defined-function locations,
-            672 strings with 7892 characters,
-and the built_in function-call counts, 10523 in all, are:
-= -- 1058
-> -- 335
-< -- 38
-+ -- 103
-- -- 100
-* -- 717
-:= -- 1957
-add.period$ -- 108
-call.type$ -- 36
-change.case$ -- 217
-chr.to.int$ -- 35
-cite$ -- 36
-duplicate$ -- 452
-empty$ -- 725
-format.name$ -- 159
-if$ -- 2028
+            705 strings with 8925 characters,
+and the built_in function-call counts, 12258 in all, are:
+= -- 1233
+> -- 393
+< -- 43
++ -- 123
+- -- 118
+* -- 840
+:= -- 2288
+add.period$ -- 126
+call.type$ -- 42
+change.case$ -- 256
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 521
+empty$ -- 840
+format.name$ -- 183
+if$ -- 2352
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 182
-num.names$ -- 108
-pop$ -- 192
+missing$ -- 32
+newline$ -- 212
+num.names$ -- 126
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 229
+purify$ -- 268
 quote$ -- 0
-skip$ -- 369
+skip$ -- 425
 stack$ -- 0
-substring$ -- 551
-swap$ -- 37
+substring$ -- 650
+swap$ -- 39
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
+type$ -- 226
 warning$ -- 0
-while$ -- 83
+while$ -- 97
 width$ -- 0
-write$ -- 441
+write$ -- 515
 (There was 1 error message)
