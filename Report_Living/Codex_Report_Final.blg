@@ -6,49 +6,49 @@ Database file #1: projectbib.bib
 Warning--entry type for "DnDHistory" isn't style-file defined
 --line 1 of file projectbib.bib
 Warning--entry type for "DesignDocExample" isn't style-file defined
---line 34 of file projectbib.bib
+--line 67 of file projectbib.bib
 Warning--entry type for "SoloXP" isn't style-file defined
---line 50 of file projectbib.bib
+--line 99 of file projectbib.bib
 Warning--entry type for "ReactJSOfficial" isn't style-file defined
---line 149 of file projectbib.bib
+--line 297 of file projectbib.bib
 Warning--entry type for "GMTips" isn't style-file defined
---line 166 of file projectbib.bib
+--line 331 of file projectbib.bib
 Warning--entry type for "marvelapp" isn't style-file defined
---line 174 of file projectbib.bib
+--line 347 of file projectbib.bib
 Warning--entry type for "trello" isn't style-file defined
---line 181 of file projectbib.bib
+--line 361 of file projectbib.bib
 Warning--entry type for "dnd-beyond" isn't style-file defined
---line 197 of file projectbib.bib
+--line 393 of file projectbib.bib
 Warning--entry type for "reddit-dnd" isn't style-file defined
---line 204 of file projectbib.bib
+--line 407 of file projectbib.bib
 Warning--entry type for "roll20" isn't style-file defined
---line 211 of file projectbib.bib
+--line 421 of file projectbib.bib
 Warning--entry type for "roll20-example" isn't style-file defined
---line 218 of file projectbib.bib
+--line 435 of file projectbib.bib
 Warning--entry type for "kfc-homepage" isn't style-file defined
---line 226 of file projectbib.bib
+--line 451 of file projectbib.bib
 Warning--entry type for "scrum-online" isn't style-file defined
---line 241 of file projectbib.bib
+--line 481 of file projectbib.bib
 Warning--entry type for "ReactJSPopularity" isn't style-file defined
---line 269 of file projectbib.bib
-Repeated entry---line 283 of file projectbib.bib
+--line 537 of file projectbib.bib
+Repeated entry---line 565 of file projectbib.bib
  : @book{testing
  :              ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "github" isn't style-file defined
---line 290 of file projectbib.bib
+--line 579 of file projectbib.bib
 Warning--entry type for "codeship" isn't style-file defined
---line 297 of file projectbib.bib
+--line 593 of file projectbib.bib
 Warning--entry type for "chaos-report" isn't style-file defined
---line 304 of file projectbib.bib
+--line 607 of file projectbib.bib
 Warning--entry type for "react-popularity" isn't style-file defined
---line 323 of file projectbib.bib
+--line 645 of file projectbib.bib
 Warning--entry type for "nodejsOfficial" isn't style-file defined
---line 330 of file projectbib.bib
+--line 659 of file projectbib.bib
 Warning--entry type for "spiral-model-source" isn't style-file defined
---line 344 of file projectbib.bib
+--line 687 of file projectbib.bib
 Warning--entry type for "xp-diag" isn't style-file defined
---line 352 of file projectbib.bib
+--line 703 of file projectbib.bib
 You've used 42 entries,
             1935 wiz_defined-function locations,
             705 strings with 8925 characters,

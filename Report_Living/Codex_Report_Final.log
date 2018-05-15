@@ -1,22 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.3)  15 MAY 2018 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.7.29)  15 MAY 2018 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Codex_Report_Final.tex
 (./Codex_Report_Final.tex
 LaTeX2e <2017-04-15>
-Babel <3.13> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (c:/texlive/texmf-local/tex/base/cmpreport/cmpreport.cls
-Document Class: cmpreport 29/09/2017 v5.1 (Pierre Chardaire) Third year Project
+Document Class: cmpreport 30/06/2017 v5.0 (Pierre Chardaire) Third year Project
  Reports
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
+Document Class: scrartcl 2017/04/13 v3.23 KOMA-Script document class (article)
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-dependent b
+Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
 (c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
@@ -24,22 +24,25 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
-)))
-(c:/texlive/2017/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2017/09/07 v3.24 KOMA-Script package (handling toc-files)
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (c:/texlive/2017/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2017/04/13 v3.23 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 133.
+(tocbasic)             for `toc' on input line 131.
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 135.
+(tocbasic)             for `lof' on input line 133.
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 136.
+(tocbasic)             for `lot' on input line 134.
 Package scrartcl Info: You've used standard option `12pt'.
 (scrartcl)             This is correct!
 (scrartcl)             Internally I'm using `fontsize=12pt'.
@@ -47,14 +50,14 @@ Package scrartcl Info: You've used standard option `12pt'.
 (scrartcl)             you'd have to use `fontsize=12pt' there
 (scrartcl)             instead of `12pt', too.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 2080.
+ine 2059.
 
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (12pt
+File: scrsize12pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (12pt
 )
 )
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2017/09/07 v3.24 KOMA-Script package (type area)
+Package: typearea 2017/04/13 v3.23 KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count79
 
@@ -89,7 +92,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1686.
+(typearea)              on input line 1647.
 )
 \c@part=\count80
 \c@section=\count81
@@ -103,13 +106,13 @@ Package typearea Info: These are the values describing the layout:
 \scr@dte@subsubsection@maxnumwidth=\skip50
 \scr@dte@paragraph@maxnumwidth=\skip51
 \scr@dte@subparagraph@maxnumwidth=\skip52
-LaTeX Info: Redefining \textsubscript on input line 4161.
+LaTeX Info: Redefining \textsubscript on input line 4094.
 \abovecaptionskip=\skip53
 \belowcaptionskip=\skip54
 \c@pti@nb@sid@b@x=\box27
 \c@figure=\count86
 \c@table=\count87
-Class scrartcl Info: Redefining `\numberline' on input line 5319.
+Class scrartcl Info: Redefining `\numberline' on input line 5233.
 \bibindent=\dimen102
 ) (c:/texlive/2017/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
@@ -222,17 +225,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box29
 )
 (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrpage2.sty
-Package: scrpage2 2017/09/07 v3.24 KOMA-Script package (page head and foot)
-
-
-Package scrpage2 Warning: usage of obsolete package!
-(scrpage2)                Package `scrpage2' is obsolete.
-(scrpage2)                You should not longer use package `scrpage2'.
-(scrpage2)                You should replace usage of package `scrpage2'
-(scrpage2)                by `scrlayer-scrpage' on input line 52.
-
-LaTeX Info: Redefining \pagemark on input line 180.
-) (c:/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: scrpage2 2017/04/13 v3.23 KOMA-Script package (page head and foot)
+LaTeX Info: Redefining \pagemark on input line 174.
+)
+(c:/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
 (c:/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -417,10 +413,10 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 
 (c:/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (c:/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/09/18 L3 programming layer (loader) 
+Package: expl3 2017/07/19 L3 programming layer (loader) 
 
 (c:/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/09/18 L3 programming layer (code)
+Package: expl3 2017/07/19 L3 programming layer (code)
 \c_max_int=\count108
 \l_tmpa_int=\count109
 \l_tmpb_int=\count110
@@ -568,7 +564,7 @@ File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count191
 \l__driver_tmp_box=\box45
 ))
-Package: xparse 2017/09/18 L3 Experimental document command parser
+Package: xparse 2017/07/19 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count192
 \g__xparse_grabber_int=\count193
 \l__xparse_m_args_int=\count194
@@ -582,7 +578,7 @@ Package: xparse 2017/09/18 L3 Experimental document command parser
 .................................................
 
 (c:/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2017/08/02 v2.7j A comprehensive (SI) units package
+Package: siunitx 2017/07/23 v2.7i A comprehensive (SI) units package
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
@@ -593,7 +589,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \ex@=\dimen170
 ))
 (c:/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2017/07/19 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box46
 \l__siunitx_tmp_dim=\dimen171
@@ -817,7 +813,7 @@ Package tocbibind Info: The document has section divisions on input line 50.
 Package tocbibind Note: Using section or other style headings.
 
 ) (c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip85
 
 For additional information on amsmath, use the `?' option.
@@ -1277,21 +1273,21 @@ Package csquotes Info: ... none found.
 (./Codex_Report_Final.aux)
 \openout1 = `Codex_Report_Final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 63.
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1369,7 +1365,7 @@ Package scrpage2 Warning: seems you are using a very small headheight.
 (scrpage2)                A better solution would be to use typearea package.
 
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 63.
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1378,9 +1374,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (./Codex_Report_Final.out) (./Codex_Report_Final.out)
 \@outlinefile=\write4
@@ -1393,7 +1389,7 @@ Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 62.
+LaTeX Info: Redefining \selectfont on input line 63.
 
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -1404,7 +1400,7 @@ Dictionary: translator-basic-dictionary, Language: English
 Dictionary: translator-months-dictionary, Language: English 
 )
 (c:/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2017/07/23 v2.7i siunitx: Abbreviated units
 )
 ABD: EveryShipout initializing macros
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1679,35 +1675,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--80
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 63.
 <uealogo.png, id=170, 112.9821pt x 53.4798pt>
 File: uealogo.png Graphic file (type png)
 <use uealogo.png>
-Package pdftex.def Info: uealogo.png  used on input line 62. on input line 62.
+Package pdftex.def Info: uealogo.png  used on input line 63. on input line 63.
 Package pdftex.def Info: Requested size: 85.35826pt x 40.40596pt on input line 
-62.
+63.
  [1
 
 
 
  <c:/texlive/texmf-local/tex/base/cmpreport/uealogo.png>]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 62.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 63.
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 62.
+(Font)              scaled to size 10.79993pt on input line 63.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 62.
+(Font)              scaled to size 10.79993pt on input line 63.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 62.
+(Font)              scaled to size 15.55188pt on input line 63.
  [2
 
 ]
@@ -1740,27 +1736,33 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 \c@lstlisting=\count357
 \c__siunitx_mathsf_int=\count358
 \c__siunitx_mathtt_int=\count359
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [6]
-Overfull \hbox (3.09877pt too wide) in paragraph at lines 75--76
+Overfull \hbox (3.09877pt too wide) in paragraph at lines 76--77
 []\T1/ptm/m/n/12 Figure []1[], shows the Gantt Chart for the \T1/ptm/m/sc/12 Co
 dex \T1/ptm/m/n/12 project, which was ad-hered to through-
  []
 
 
-LaTeX Warning: Float too large for page by 15.24338pt on input line 119.
+LaTeX Warning: Float too large for page by 15.24338pt on input line 120.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 121.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 122.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 15.55188pt on input line 121.
+(Font)              scaled to size 15.55188pt on input line 122.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 124.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 125.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 124.
+(Font)              scaled to size 12.9599pt on input line 125.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -1774,31 +1776,25 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [9]
-<Images/DnD_Live.jpg, id=314, 4047.12pt x 3035.34pt>
+<Images/DnD_Live.jpg, id=315, 4047.12pt x 3035.34pt>
 File: Images/DnD_Live.jpg Graphic file (type jpg)
 <use Images/DnD_Live.jpg>
-Package pdftex.def Info: Images/DnD_Live.jpg  used on input line 138. on input 
-line 138.
+Package pdftex.def Info: Images/DnD_Live.jpg  used on input line 139. on input 
+line 139.
 Package pdftex.def Info: Requested size: 209.09904pt x 142.2349pt on input line
- 138.
-<Images/DnD_Dice.jpg, id=315, 4047.12pt x 3035.34pt>
+ 139.
+<Images/DnD_Dice.jpg, id=316, 4047.12pt x 3035.34pt>
 File: Images/DnD_Dice.jpg Graphic file (type jpg)
 <use Images/DnD_Dice.jpg>
-Package pdftex.def Info: Images/DnD_Dice.jpg  used on input line 142. on input 
-line 142.
+Package pdftex.def Info: Images/DnD_Dice.jpg  used on input line 143. on input 
+line 143.
 Package pdftex.def Info: Requested size: 209.09904pt x 142.2349pt on input line
- 142.
+ 143.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 137--145
-[]$[]$ $[]$ 
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 138--146
+[][] [] 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 148.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 148.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 148.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -1816,13 +1812,13 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [13]
-<Images/dnd-beyond.png, id=366, 912.40875pt x 765.6103pt>
+<Images/dnd-beyond.png, id=368, 912.40875pt x 765.6103pt>
 File: Images/dnd-beyond.png Graphic file (type png)
 <use Images/dnd-beyond.png>
-Package pdftex.def Info: Images/dnd-beyond.png  used on input line 185. on inpu
-t line 185.
+Package pdftex.def Info: Images/dnd-beyond.png  used on input line 187. on inpu
+t line 187.
 Package pdftex.def Info: Requested size: 418.25372pt x 350.95837pt on input lin
-e 185.
+e 187.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -1832,32 +1828,32 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [15 <./Images/dnd-beyond.png>]
-<Images/dnd-beyond-mm-purchase.png, id=383, 655.69969pt x 284.56313pt>
+<Images/dnd-beyond-mm-purchase.png, id=387, 655.69969pt x 284.56313pt>
 File: Images/dnd-beyond-mm-purchase.png Graphic file (type png)
 <use Images/dnd-beyond-mm-purchase.png>
 Package pdftex.def Info: Images/dnd-beyond-mm-purchase.png  used on input line 
-193. on input line 193.
+195. on input line 195.
 Package pdftex.def Info: Requested size: 209.12686pt x 90.7581pt on input line 
-193.
-<Images/roll20-mm-purchase.png, id=384, 868.74562pt x 405.01312pt>
+195.
+<Images/roll20-mm-purchase.png, id=388, 868.74562pt x 405.01312pt>
 File: Images/roll20-mm-purchase.png Graphic file (type png)
 <use Images/roll20-mm-purchase.png>
-Package pdftex.def Info: Images/roll20-mm-purchase.png  used on input line 197.
- on input line 197.
+Package pdftex.def Info: Images/roll20-mm-purchase.png  used on input line 199.
+ on input line 199.
 Package pdftex.def Info: Requested size: 209.12686pt x 97.49559pt on input line
- 197.
+ 199.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 192--200
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 194--202
 []$[]$ $[]$ 
  []
 
-<Images/roll20-example.jpg, id=385, 963.6pt x 684.5575pt>
+<Images/roll20-example.jpg, id=389, 963.6pt x 684.5575pt>
 File: Images/roll20-example.jpg Graphic file (type jpg)
 <use Images/roll20-example.jpg>
-Package pdftex.def Info: Images/roll20-example.jpg  used on input line 206. on 
-input line 206.
+Package pdftex.def Info: Images/roll20-example.jpg  used on input line 208. on 
+input line 208.
 Package pdftex.def Info: Requested size: 313.69029pt x 222.84413pt on input lin
-e 206.
+e 208.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1866,13 +1862,13 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [16 <./Images/dnd-beyond-mm-purchase.png> <./Images/roll20-mm-purchase.png>]
-<Images/kfc-screenshot.png, id=405, 952.30782pt x 484.05844pt>
+<Images/kfc-screenshot.png, id=408, 952.30782pt x 484.05844pt>
 File: Images/kfc-screenshot.png Graphic file (type png)
 <use Images/kfc-screenshot.png>
-Package pdftex.def Info: Images/kfc-screenshot.png  used on input line 219. on 
-input line 219.
+Package pdftex.def Info: Images/kfc-screenshot.png  used on input line 221. on 
+input line 221.
 Package pdftex.def Info: Requested size: 334.60425pt x 170.08035pt on input lin
-e 219.
+e 221.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -1882,14 +1878,14 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [18 <./Images/kfc-screenshot.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 238.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 240.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 238.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 240.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -1899,25 +1895,25 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [20]
-<Images/waterfall.png, id=447, 567.11874pt x 362.35374pt>
+<Images/waterfall.png, id=450, 567.11874pt x 362.35374pt>
 File: Images/waterfall.png Graphic file (type png)
 <use Images/waterfall.png>
-Package pdftex.def Info: Images/waterfall.png  used on input line 260. on input
- line 260.
+Package pdftex.def Info: Images/waterfall.png  used on input line 262. on input
+ line 262.
 Package pdftex.def Info: Requested size: 334.60425pt x 213.79791pt on input lin
-e 260.
+e 262.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [21 <./Images/waterfall.png>]
-<Images/spiral.png, id=456, 376.40625pt x 272.51813pt>
+<Images/spiral.png, id=458, 376.40625pt x 272.51813pt>
 File: Images/spiral.png Graphic file (type png)
 <use Images/spiral.png>
-Package pdftex.def Info: Images/spiral.png  used on input line 268. on input li
-ne 268.
+Package pdftex.def Info: Images/spiral.png  used on input line 270. on input li
+ne 270.
 Package pdftex.def Info: Requested size: 334.60425pt x 242.27008pt on input lin
-e 268.
+e 270.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -1927,42 +1923,42 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [23]
-<Images/scrum.png, id=485, 835.12pt x 242.9075pt>
+<Images/scrum.png, id=487, 835.12pt x 242.9075pt>
 File: Images/scrum.png Graphic file (type png)
 <use Images/scrum.png>
-Package pdftex.def Info: Images/scrum.png  used on input line 294. on input lin
-e 294.
+Package pdftex.def Info: Images/scrum.png  used on input line 296. on input lin
+e 296.
 Package pdftex.def Info: Requested size: 334.60425pt x 97.32436pt on input line
- 294.
+ 296.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [24 <./Images/scrum.png>]
-<Images/trello_board.png, id=494, 850.67813pt x 324.0105pt>
+<Images/trello_board.png, id=496, 850.67813pt x 324.0105pt>
 File: Images/trello_board.png Graphic file (type png)
 <use Images/trello_board.png>
-Package pdftex.def Info: Images/trello_board.png  used on input line 304. on in
-put line 304.
+Package pdftex.def Info: Images/trello_board.png  used on input line 306. on in
+put line 306.
 Package pdftex.def Info: Requested size: 334.60425pt x 127.44632pt on input lin
-e 304.
+e 306.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [25 <./Images/trello_board.png>]
-Overfull \hbox (2.6074pt too wide) in paragraph at lines 310--311
+Overfull \hbox (2.6074pt too wide) in paragraph at lines 312--313
 []\T1/ptm/m/n/12 Kanban projects would not have to go through the reg-u-lar pla
 n-ning that Scrum projects
  []
 
-<Images/agile-solo.png, id=512, 587.19376pt x 400.49625pt>
+<Images/agile-solo.png, id=515, 587.19376pt x 400.49625pt>
 File: Images/agile-solo.png Graphic file (type png)
 <use Images/agile-solo.png>
-Package pdftex.def Info: Images/agile-solo.png  used on input line 319. on inpu
-t line 319.
+Package pdftex.def Info: Images/agile-solo.png  used on input line 321. on inpu
+t line 321.
 Package pdftex.def Info: Requested size: 334.60425pt x 228.218pt on input line 
-319.
+321.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -1972,25 +1968,25 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [27 <./Images/agile-solo.png>]
-<Images/xp.png, id=531, 368.37625pt x 338.26375pt>
+<Images/xp.png, id=535, 368.37625pt x 338.26375pt>
 File: Images/xp.png Graphic file (type png)
 <use Images/xp.png>
-Package pdftex.def Info: Images/xp.png  used on input line 332. on input line 3
-32.
+Package pdftex.def Info: Images/xp.png  used on input line 334. on input line 3
+34.
 Package pdftex.def Info: Requested size: 250.95477pt x 230.43953pt on input lin
-e 332.
+e 334.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [28 <./Images/xp.png>]
-<Images/web-app-arch.PNG, id=554, 601.24625pt x 721.69624pt>
+<Images/web-app-arch.PNG, id=559, 601.24625pt x 721.69624pt>
 File: Images/web-app-arch.PNG Graphic file (type png)
 <use Images/web-app-arch.PNG>
-Package pdftex.def Info: Images/web-app-arch.PNG  used on input line 348. on in
-put line 348.
+Package pdftex.def Info: Images/web-app-arch.PNG  used on input line 350. on in
+put line 350.
 Package pdftex.def Info: Requested size: 209.12686pt x 251.02272pt on input lin
-e 348.
+e 350.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2005,9 +2001,9 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 [30 <./Images/web-app-arch.PNG>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 362.
+nput line 364.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 371.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 373.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -2026,9 +2022,9 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 [34]
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 411.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 413.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 12.9599pt on input line 411.
+(Font)              scaled to size 12.9599pt on input line 413.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -2042,13 +2038,13 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [37]
-<Images/homepage-developed.png, id=733, 956.82469pt x 427.5975pt>
+<Images/homepage-developed.png, id=741, 956.82469pt x 427.5975pt>
 File: Images/homepage-developed.png Graphic file (type png)
 <use Images/homepage-developed.png>
-Package pdftex.def Info: Images/homepage-developed.png  used on input line 503.
- on input line 503.
+Package pdftex.def Info: Images/homepage-developed.png  used on input line 505.
+ on input line 505.
 Package pdftex.def Info: Requested size: 334.60425pt x 149.53087pt on input lin
-e 503.
+e 505.
 
 Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
@@ -2135,20 +2131,20 @@ Overfull \vbox (0.72502pt too high) has occurred while \output is active []
 
 
 [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 601.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 601.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
  (./Codex_Report_Final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 601.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 601.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
 Package rerunfilecheck Info: File `Codex_Report_Final.out' has not changed.
 (rerunfilecheck)             Checksum: E140B059C56A2778D8055E4785C0834A;2573.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 601.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
  ) 
 Here is how much of TeX's memory you used:
- 36619 strings out of 492990
- 725574 string characters out of 6136334
- 944023 words of memory out of 5000000
- 39355 multiletter control sequences out of 15000+600000
+ 36605 strings out of 492990
+ 725306 string characters out of 6136334
+ 935454 words of memory out of 5000000
+ 39337 multiletter control sequences out of 15000+600000
  643674 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,13n,71p,10416b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2161,10 +2157,10 @@ ive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2017/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Codex_Report_Final.pdf (57 pages, 10070614 bytes).
+Output written on Codex_Report_Final.pdf (57 pages, 10071111 bytes).
 PDF statistics:
- 1030 PDF objects out of 1200 (max. 8388607)
- 923 compressed objects within 10 object streams
- 273 named destinations out of 1000 (max. 500000)
+ 1038 PDF objects out of 1200 (max. 8388607)
+ 931 compressed objects within 10 object streams
+ 277 named destinations out of 1000 (max. 500000)
  389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
